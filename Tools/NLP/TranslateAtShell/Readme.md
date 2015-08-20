@@ -23,7 +23,7 @@ translate "Agora posso dialogar em outra lingua :-)" "pt-BR" "en"
 
 **Result**
 ```
-"Now I can talk in another language :-)
+Now I can talk in another language :-)
 ```
 
 ## Language Codes
