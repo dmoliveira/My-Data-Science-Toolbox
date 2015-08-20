@@ -16,9 +16,14 @@ translate "Text to be translated" "language from" "language to"
   
 *e.g.,*
 
+**Command**  
 ```
-**Command:** translate "Agora posso dialogar em outra lingua :-)" "pt-BR" "en"  
-**Result:** *"Now I can talk in another language :-)*
+translate "Agora posso dialogar em outra lingua :-)" "pt-BR" "en"  
+```
+
+**Result**
+```
+"Now I can talk in another language :-)
 ```
 
 ## Language Codes
