@@ -26,6 +26,9 @@ translate "Agora posso dialogar em outra lingua :-)" "pt-BR" "en"
 Now I can talk in another language :-)
 ```
 
+## Screenshot
+<img src="./imgs/screenshot_tas.png"/>
+
 ## Language Codes
 - Check [full list here](https://sites.google.com/site/tomihasa/google-language-codes)
 
