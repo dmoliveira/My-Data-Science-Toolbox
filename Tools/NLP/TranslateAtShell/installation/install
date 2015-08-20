@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+pip install -U -r requirements.txt  --user
+
+exec_dir="$PWD/../"
+cd /usr/local/bin/
+sudo ln -sfn "$exec_dir/translate" .

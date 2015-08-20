@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+#
+# Translate at Shell
+# ------------------
+# 
+#   $1: Text to translate
+#   $2: Language of the text (e.g., en, pt-BR, it, fr, ge, ja, etc)
+#   $3: Langauge to trnaslate
+#
+# e.g., 
+#   
+#   translate_at_shell "Que horas são?" "pt-BR" "en"
+#
+# Check languages code at https://sites.google.com/site/tomihasa/google-language-codes
+#
+
+exec="translate"
+original_path="$(readlink $(dirname $0)/$exec)"
+if [ -z "$original_path" ]; then
+    original_path="$exec.py"
+else
+    original_path="$original_path.py"
+fi
+
+python "$original_path" "$1" "$2" "$3"
