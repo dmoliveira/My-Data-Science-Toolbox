@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+[[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
