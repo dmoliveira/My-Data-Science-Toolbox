@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Create VM for MacOS with Docker-Machine. If none vm is provided then uses default.
+
+vm=$1
+
+if [ -z $vm ];then
+    vm=default
+fi
+
+sudo docker-machine create --driver virtualbox $vm

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+wget \
+     --recursive \
+     --no-clobber \
+     --page-requisites \
+     --convert-links \
+     --domains $(grep -Eoe '(.+?)/' <<< "$1") \
+     --no-parent \
+        $1

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Delete the folder that contains an VM. If no one vm is provided then use default
+
+vm=$1
+
+if [ -z $vm  ];then
+    $vm=default
+fi
+
+docker-machine rm $vm
