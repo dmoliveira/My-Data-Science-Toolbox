@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+pip install -U SpeechRecognition
+# Install pyaudio: sudo apt-get install python-pyaudio python3-pyaudio
+# http://people.csail.mit.edu/hubert/pyaudio/#downloads
+brew update
+brew install flac

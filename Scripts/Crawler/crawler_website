@@ -4,6 +4,6 @@ wget \
      --no-clobber \
      --page-requisites \
      --convert-links \
-     --domains $(grep -Eoe '(.+?)/' <<< "$1") \
+     --domains "$1" \
      --no-parent \
-        $1
+        $2
