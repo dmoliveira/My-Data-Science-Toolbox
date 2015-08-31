@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+#
+# Description:
+# ---
+# Force a CSV transformation from a non-standard CSV file.
+#
+# Parameters:
+# ---
+# $1: Input filename
+# $2: Output filename
+#
+
+in2csv -f csv -t "$1" > "$2"
