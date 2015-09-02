@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+#
+# Title: Search Inside Files
+# Description: Search patterns inside files.
+# Tags: Grep, Search, Files
+#
+
+pattern="$1"
+extension="\*$2"
+
+grep -R "$pattern" "$PWD/." --include "$extension"
