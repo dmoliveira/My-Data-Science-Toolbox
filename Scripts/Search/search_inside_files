@@ -3,10 +3,10 @@
 #
 # Title: Search Inside Files
 # Description: Search patterns inside files.
-# Tags: Grep, Search, Files
+# Tags: Grep, Find, Search, Files
 #
 
 pattern="$1"
-extension="\*$2"
+extension="*$2"
 
-grep -R "$pattern" "$PWD/." --include "$extension"
+find . -name "$extension" -exec grep -EHni "$pattern" {} \;
