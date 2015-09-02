@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+num_repeat="$1"
+exec_command="$2"
+
+parallel -v -j0 -P0 -n0 "time $exec_command > /dev/null" ::: $( seq $num_repeat )
