@@ -1,6 +1,21 @@
 #!/usr/bin/env bash
 
 num_repeat="$1"
-exec_command="$2"
+exec_command="${@:2}"
 
-parallel -v -j0 -P0 -n0 "time $exec_command > /dev/null" ::: $( seq $num_repeat )
+if [ $num_repeat -lt 2 ]; then
+    num_repeat=2
+fi
+
+id=$RANDOM$RANDOM$RANDOM$RANDOM
+log_file="/tmp/${id}.log"
+
+parallel --linebuffer -j0 -P0 -n0 -q time $exec_command 2> "$log_file" 1> /dev/null ::: $( seq $num_repeat )
+(echo -e "type\ttime"; grep -E "real\s*?(.*?)s$" "$log_file") \
+    | in2csv -f csv \
+    | csvcut -c2 \
+    | tail -n+2 \
+    | xargs -n1 python -c "import sys; hr, min, sec = [float(x) for x in sys.argv[1].split(':')]; print hr*3600 + min*60 + sec" \
+    | csvstat --mean \
+    | xargs printf "Avg. Time [%s runs]: %ss" $num_repeat 
+rm "$log_file"
