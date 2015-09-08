@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+#
+# Title: Remove old TMUX resurrect files.
+# Description: Remove old saved sessions files.
+# Tags: Tmux, Files, Remove, Cron
+#
+ls "$HOME/.tmux/resurrect/" | grep -v last | tr ' ' \n | sort -nr | tail -n+2 | xargs rm

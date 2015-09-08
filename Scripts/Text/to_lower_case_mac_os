@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+#
+# Title: To lower case 
+# Description:
+# Tags: 
+#
+
+pbpaste | tr ' ' _ | tr [:upper:] [:lower:] | pbcopy
