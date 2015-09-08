@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Create environment
+eval "$(docker-machine env default)"

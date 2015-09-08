@@ -8,4 +8,4 @@ if [ -z $vm ];then
     vm=default
 fi
 
-sudo docker-machine create --driver virtualbox $vm
+docker-machine create --driver virtualbox $vm

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# Title: Start containers
+# Description: Start containers from docker with docker-compose
+# Tags: Docker, Docker-Compose, Automatition
+#
+# Parameters
+# $1: Project name
+# $2: Container array to load (api backend)
+#
+
+project="$1"
+containers="${@:2}"
+
+docker-compose -p "$project" -f docker/docker-compose.yml up "$containers"

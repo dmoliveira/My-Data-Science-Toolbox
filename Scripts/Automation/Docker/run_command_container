@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# Title: Run command at container
+# Description: Execute a given command at a specific container
+# Tags: Docker, Docker-Compose, Automatition, Execute, Command
+#
+# Parameters
+# $1: Project name
+# $2: Container 
+# $3: Command that will be executed
+#
+
+project="$1"
+container="$2"
+command_to_exec="$3"
+
+docker-compose -p "$project" -f docker/docker-compose.yml run "$container" "$command_to_exec"

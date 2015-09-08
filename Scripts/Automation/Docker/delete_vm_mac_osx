@@ -4,7 +4,7 @@
 vm=$1
 
 if [ -z $vm  ];then
-    $vm=default
+    $vm="default"
 fi
 
-docker-machine rm $vm
+docker-machine rm -f "$vm"
