@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+#
+# Title: To lower case 
+# Description:
+# Tags: 
+#
+
+xclip | tr ' ' _ | tr [:upper:] [:lower:] | xclip
