@@ -1,5 +1,6 @@
 # Plot.jl: A command-line interface in Julia to practical data visualization
 <span style="float:right">v.0.1.0</span>
+[![Join the chat at https://gitter.im/dmoliveira/My-Data-Science-Toolbox](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dmoliveira/My-Data-Science-Toolbox?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ## 1. Introduction
 `Plot.jl` is a practical solution to plot simple and beautiful graphs at command-line. It was built entirely on [Julia language](http://julialang.org/) and uses [Gadfly](http://dcjones.github.io/Gadfly.jl/) package. I suggest to use with others powerful tools like `CSVKit` and `jq` as an input source to generate the graphs on-the-fly.
 
