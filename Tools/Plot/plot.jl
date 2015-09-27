@@ -1,5 +1,5 @@
 #!/usr/bin/env julia
-# Code from My-Data-Science-Tool-Box at https://www.github.com/dmztheone/my-data-science-tool-box
+# Code from My-Data-Science-Tool-Box at https://github.com/dmoliveira/My-Data-Science-Toolbox
 
 # Title: Plot.jl
 # Description: Fast plots in Julia + Gadfly at command-line. Supported plots: Hist, Scatter and Smooth Curve.
