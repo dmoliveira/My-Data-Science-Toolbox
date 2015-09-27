@@ -23,26 +23,26 @@ plot.jl plot_type x [, y, outputfile]
 ### 4.1. Plot a histogram
 ```
 plot.jl Hist "1 4 5 3 3 5 1 2 5"
-![](./figures/example_hist.png)
 ```
+![](./figures/example_hist.png)
 
 ### 4.2. Plot a scatter plot
 ```
 plot.jl Scatter "1 4 4 3 3 3 1 2 5 10" "5 5 5 1 2 2 6 7 7 7"
-![](./figures/example_scatter.png)
 ```
+![](./figures/example_scatter.png)
 
 ### 4.3. Plot a smooth curve
 ```
 plot.jl Smooth "1 4 4 3 3 3 1 2 5 10" "5 5 5 1 2 2 6 7 7 7"
-![](./figures/example_smooth.png)
 ```
+![](./figures/example_smooth.png)
 
 ### 4.4. Use files as input source
 ```
 ./plot.jl Scatter "$(cat ./sample/iris-data-x.txt | tr '\n' ' ')" "$(cat ./sample/iris-data-y.txt | tr '\n' ' ')"
-![](./figures/example_file_input_source.png)
 ```
+![](./figures/example_file_input_source.png)
 
 * Improvement and new ways of reading input sources may be added in the future.
 
@@ -61,9 +61,8 @@ currency=`echo $json | jq '.[].USD|select(length > 0)' | tr '\n' ' '`
 
 # 3. Lets plot Smooth Curve
 plot.jl Smooth "$currency" "$(seq -s ' ' 1 31)"
-
-![](./figures/example_use_case.png)
 ```
+![](./figures/example_use_case.png)
 
 ## 5. Contributions
 Please send pull-requests or open issues on GitHub. Use Gitter to chat about this project. All are welcome.
