@@ -11,17 +11,19 @@ using Gadfly
 abstract Plot
 abstract Hist <: Plot
 abstract Scatter <: Plot
+abstract Line <: Plot
 abstract Smooth <: Plot
 
 render(::Type{Hist}, x::Array{Float64}) = plot(x=x, Geom.histogram)
 render(::Type{Scatter}, x::Array{Float64}, y::Array{Float64}) = plot(x=x, y=y)
+render(::Type{Line}, x::Array{Float64}, y::Array{Float64}) = plot(x=x, y=y, Geom.line)
 render(::Type{Smooth}, x::Array{Float64}, y::Array{Float64}) =  plot(x=x, y=y, Geom.point, Geom.smooth)
 
 function parse_args(args)
     length(args) < 2 && error("Arguments wrong. It needs plot_type, x, [y] and [outputfile].")
 
-    args[1] == "Hist" || args[1] == "Scatter" || args[1] == "Smooth" ||
-    error("Plot type not supported.")
+    args[1] == "Hist" || args[1] == "Scatter" || args[1] == "Smooth" || args[1] == "Line" ||
+    error("Plot type '$args[1]' not supported.")
 
     plot_type = eval(parse(args[1]))
     x = map(x -> parse(Float64, x), split(args[2]))
