@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# 
+# Title: Extract one liner
+# Description: Extract patterns in file per line and return the pattern separated by space.
+# Tags: Regex, Extract, Text Preprocessing
+#
+
+regex_prefix="$1"
+regex_suffix="$2"
+file=$3""
+
+grep -Po "$regex_prefix\K(.*?)(?=$regex_suffix)" "$file" | tr '\n' ' '

@@ -5,13 +5,33 @@
 # Description: Loop in a command time to time
 # Tags: Loop, command, time
 #
+# Parameters
+# ----------
+# loop: Number of loops.
+#       if 0 will loop forever.
+# interval: time in seconds between loops after one command end.
+# command: command to be executed more arguments
+# 
+# Example usage
+# -------------
+# loop 10 0.5 echo "Hello Loop!"
+# Result: 10 "Hello Loop!" showing at each .5s
+#
+loop=${@:1:1}
+interval=${@:2:1}
+command=${@:3:1}
+args=${@:4}
 
-loop=${@:1}
-interval=${@:2}
-command=${@:3}
-args=${@:4:}
-
-for i in 1:$loop; then
-    $command $args
-    sleep $interval
-endfor
+if [ $loop -le 0 ]; then
+    while true
+    do
+        echo "[`date +"%T.%N"`] $($command $args)"
+        sleep $interval
+    done
+else 
+    for i in `seq $loop`
+    do
+        echo "[`date +"%T.%N"`] $($command $args)"
+        sleep $interval
+    done
+fi
