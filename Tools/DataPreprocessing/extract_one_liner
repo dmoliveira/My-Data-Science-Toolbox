@@ -5,6 +5,17 @@
 # Description: Extract patterns in file per line and return the pattern separated by space.
 # Tags: Regex, Extract, Text Preprocessing
 #
+# Parameters
+# ----------
+# regex_prefix: Regular expression prefix
+# regex_suffix: Regular expression suffix
+# file: Input file
+#
+# Example usage
+# -------------
+# Command: extract_one_liner "$" "," payments.log
+# Result: "120 125 103 101 150"
+#
 
 regex_prefix="$1"
 regex_suffix="$2"
