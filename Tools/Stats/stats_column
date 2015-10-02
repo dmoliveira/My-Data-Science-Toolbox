@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+#
+# Title: Stats Column
+# Description: Calculate a summary description over a specific data column.
+#              If data are in line separated by space it will transpose this
+#              line for column.
+#              Observation: It uses CSVStat from CSVKit to calculate descriptive statistics.
+#              Warning: It operates only in a column line file.
+# Tags: Statistics, Data summarization, File, Data Preprocessing
+#
+# Parameters
+# ----------
+# - file: The input file.
+# - summary_measure: max, min, sum, mean, median, stdev, nulls, unique, freq, len, count
+# Usage example
+# -------------
+# Command: stats_column results.log sum
+# Result: The sum of the numbers in results.log
+#
+
+file="$1"
+summary_measure="$2"
+
+tr ' ' '\n' <$file | in2csv -f csv | csvstat --$summary_measure

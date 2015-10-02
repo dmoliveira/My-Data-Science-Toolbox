@@ -1,5 +1,21 @@
 #!/usr/bin/env bash
 
+#
+# Title: Timeit
+# Description: Calculate the average time of program execution.
+# Tags: Performance, timeit
+#
+# Parameters
+# ----------
+# - num_repeat: Repeat number to make the average. Min > 1
+# - exec_command: Command to execute
+#
+# Usage example
+# -------------
+# Command: timeit 10 wc -l result.log | tr '\n' ' '
+# Result: Avg. Time [10 runs]: 0.0012s
+#
+
 num_repeat="$1"
 exec_command="${@:2}"
 

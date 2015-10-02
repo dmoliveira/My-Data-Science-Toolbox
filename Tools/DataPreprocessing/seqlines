@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# 
+# Title: Seqlines
+# Description: Sequence create from the number of lines returned as a sequence in same line.
+# Tags: Sequence, Line count
+#
+# Parameter
+# ---------
+# file: Input file.
+#
+# Example usage
+# -------------
+# seqlines results.log
+#
+
+file="$1"
+seq $(wc -l $file | cut -f1 -d' ') | tr '\n' ' '
