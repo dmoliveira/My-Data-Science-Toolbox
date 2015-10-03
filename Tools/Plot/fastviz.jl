@@ -1,10 +1,13 @@
 #!/usr/bin/env julia
 # Code from My-Data-Science-Tool-Box at https://github.com/dmoliveira/My-Data-Science-Toolbox
 
-# Title: Plot.jl
-# Description: Fast plots in Julia + Gadfly at command-line. Supported plots: Hist, Scatter and Smooth Curve.
-# Tags: Julia, Gadfly, Plots.
-
+#
+# Title: FastViz.jl
+# Description: Fast data visualization in Julia + Gadfly at command-line. 
+#              Supported plots: Hist, Scatter, Line, Smooth Curve, BoxPlot, 
+#                               Rectbin, Hexbin.
+# Tags: Julia, Gadfly, Plots, Data Visualization.
+#
 
 using Gadfly
 using DataFrames
@@ -26,6 +29,9 @@ abstract File <: InputFormat
 abstract OutputFormat 
 abstract PNG <: OutputFormat
 
+#############################################################################################################
+# Plot
+#############################################################################################################
 function plot(::Type{Hist}, data::Array)
     length(data) == 0 && error("No data to plot.")
     labels = map(n -> fill(repr(n), length(data[1])), 1:size(data)[1])
@@ -73,10 +79,16 @@ function plot(::Type{Hexbin}, data::Array)
     Gadfly.plot(dataframe, x="x", y="y", Geom.hexbin(xbincount=100, ybincount=100))
 end
 
+#############################################################################################################
+# Save Plot
+#############################################################################################################
 save(::Type{PNG}, output, plot; width=8inch, height=6inch) = draw(Compose.PNG(output, width, height), plot)
 
+#############################################################################################################
+# Parse Arguments
+#############################################################################################################
 function parse_args(args)
-    length(args) < 2 && error("Arguments wrong. It needs plot_type, x, [y] and [outputfile].")
+    length(args) < 2 && error("Arguments wrong. It needs plot_type, [outputfile.png,] and data series.")
 
     check_plot_type(args[1])
     plot_type = eval(parse(args[1]))
@@ -121,36 +133,119 @@ function parse_input(::Type{File}, file::AbstractString)
     end
 end
 
-function gen_dataframe(data)
-
-end
-
 @doc """
-
     Description
     -----------
-    Create plot in PNG format.
-    Create only simple Histogram,
-    Scatter plot or Smooth Curve.
+    FastViz is a library that can be used
+    at command line. It is powered by Julia and 
+    Gadfly. It is only to make simple and fast
+    data visualization at CLI.
 
+    Features
+    --------
+    * Plot Histogram
+    * Plot Scatter Plot
+    * Plot Line
+    * Plot Smooth Curve
+    * Plot Boxplot
+    * Plot Rectbin
+    * Plot Hexbin
+    * Save plot in PNG format
 
     Arguments
     ---------
-    - plot_type: Accept `Hist`, `Scatter` or `Smooth`.
-    - x: Float elements separated by space only.
-    - y (only for Scatter or Smooth): Float elements
-        separated by space only.
-    - output (optional): Output name to save PNG file.
-
+    - plot_type: Accept `Hist`, `Scatter`, `Line`, `Smooth`,
+                 `Boxplot` `Rectbin` and `Hexbin`.
+    - output (optional): Output name saved in PNG format.
+    - series: Input source used to plots. It can be
+              a file or a number sequence separated by
+              space.
 
     Examples
     --------
+    Generate a simple histogram
     ```
-    plot.jl Hist "1 2 3" my_plot.png
+    fastviz.jl Hist my_plot.png "1 2 3" 
     ```
+
+    Generate a Scatter plot (Need Pairs of Xs and Ys)
     ```
-    plot.jl Scatter ".5 .2 .15 .40" ".1 .26 .65 .78"
+    fastviz.jl Scatter ".5 .2 .15 .40" ".1 .26 .65 .78"
     ```
+
+    Generate a Line plot 
+    ```
+    fastviz.jl Line ".5 .2 .15 .40"
+    ```
+    
+    Generate a line plot from file
+    ```
+    fastviz.jl Line serie.txt
+
+    ```
+
+    Generate multiple lines plot
+    ```
+    fastviz.jl Line serie_01.txt serie_02.txt ... serie_04.txt
+    ```
+
+    Generate a smooth plot
+    ```
+    fastviz.jl Smooth serie.txt
+    ```
+
+    Generate a boxplot
+    ```
+    fastviz.jl Boxplot serie_01.txt serie_02.txt ... serie_n.txt
+    ```
+    
+    Generate a rectbin
+    ```
+    fastviz.jl Rectbin Xs.txt Ys.txt Zs.txt 
+    ```
+
+    Generate a hexbin
+    ```
+    fastviz.jl Hexbin Xs.txt Ys.txt
+    ```
+
+    Input Source
+    ------------
+    Can accepts as input `File` or `NumberList`.
+
+    - File: A file with a list of numbers separated by new line. 
+            All files need to have extension (*i.e.*, .txt, .csv)
+            and have only one data column per file.
+            Example:
+            102
+            12
+            54
+            ...
+            12
+            251
+
+    - NumberList: A serie of numbers separated by space and delimitered
+                  by quote.
+                  Example:
+                  "1 24 50 23 130 40 54 12"
+
+    Plot Parameters
+    ---------------
+    - Hist: Multiple serie 
+    - Scatter: Multiple pairs of serie (X and Y serie)
+    - Line: Mulitple serie
+    - Smooth: Multiple serie
+    - Boxplot: Multiple serie
+    - Recbin: Three serier (Triple)
+    - Hexbin: Two series (Pair)
+
+    Notes
+    -----
+    * For multiple serie, the length of each one
+      need to be the same.
+    * At output parameter ALWAYS add .png or the
+      parameter will be interpreted as a serie.
+    * During the execution 
 """
 function main(args)
     plot_type, output, data = parse_args(args)

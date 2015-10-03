@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+#
+# Title: Install
+# Description: Install fastviz.jl for use in a unix system
+# Dependencies: Need to have Julia installed
+# Tags: Installation
+#
+
+julia -e 'println()'
+if [ $? != 0 ]; then
+    echo -e """
+-------------------------------------------
+*** ERROR! Could not find Julia executable
+-------------------------------------------
+
+    - Suggestion 
+       Create a softlink for Julia 
+       pointing to the Julia executable.
+
+    - Example
+       cd /usr/local/bin
+       sudo ln -s "julia_path/julia" .
+    
+    - Where to get Julia
+       http://www.julialang.org   
+
+
+-------------------------------------------
+    >> Installation interrupted...
+-------------------------------------------
+   """
+            exit 0
+fi
+
+julia -e 'Pkg.update()'
+julia -e 'Pkg.add("DataFrames")'
+julia -e 'Pkg.add("Gadfly")'
+
+lwd="$PWD"
+cd /usr/local/bin && sudo ln -fs $lwd/fastviz.jl && cd $lwd
