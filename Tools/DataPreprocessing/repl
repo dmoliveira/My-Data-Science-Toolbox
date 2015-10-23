@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# Title: Repl
+# Description: Replace inline string to another from a specific file.
+# Tags: Replace text, Data Preprocessing.
+# 
+# Arguments
+# ---------
+# - old: Old string that will be substituted.
+# - new: New string that will replace the old one.
+# - text: 
+#
+# Usage example
+# ------------
+# File example: "This is the example number one."
+# Command: repl "one" "two" numbers.txt
+# Results: "This is the example number two."
+#
+
+old="$1"
+new="$2"
+text="$3"
+sed -r "s/\{$old\}/$new/" $file
