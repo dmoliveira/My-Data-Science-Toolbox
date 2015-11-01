@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+#
+# Title: Squash
+# Description: Remove new lines from text files.
+# Tags: Data preprocessing, Text processing.
+#
+# Arguments
+# ---------
+# - file: filename to be squashed.
+#
+# Usage Example
+# --------------
+# Command: squash file.txt
+# Result: Text file in one line.
+#
+
+file="$1"
+cat "$file" | tr '\n' ' '
