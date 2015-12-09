@@ -1,0 +1,419 @@
+"PassengerId"	"Survived"	"Pclass"	"Name"	"Sex"	"Age"	"SibSp"	"Parch"	"Ticket"	"Fare"	"Cabin"	"Embarked"	"Cat"	"Title"	"FamilySize"	"FamilyId"	"FamilyId2"	"Mother"	"Child"	"Deck"	"CabinNum"	"CabinPos"
+892	0	3	"Kelly, Mr. James"	1	34.5	0	0	"330911"	7.8292	NA	3	"test"	1	1	"1Kelly"	41	0	0	1	NA	NA
+893	0	3	"Wilkes, Mrs. James (Ellen Needs)"	2	47.0	1	0	"363272"	7.0	NA	1	"test"	2	2	"2Wilkes"	1	0	0	1	NA	NA
+894	0	2	"Myles, Mr. Thomas Francis"	1	62.0	0	0	"240276"	9.6875	NA	3	"test"	1	1	"1Myles"	1	0	0	1	NA	NA
+895	0	3	"Wirz, Mr. Albert"	1	27.0	0	0	"315154"	8.6625	NA	1	"test"	1	1	"1Wirz"	1	0	0	1	NA	NA
+896	1	3	"Hirvonen, Mrs. Alexander (Helga E Lindqvist)"	2	22.0	1	1	"3101298"	12.2875	NA	1	"test"	2	3	"3Hirvonen"	1	1	0	1	NA	NA
+897	0	3	"Svensson, Mr. Johan Cervin"	1	14.0	0	0	"7538"	9.225	NA	1	"test"	1	1	"1Svensson"	64	0	0	1	NA	NA
+898	1	3	"Connolly, Miss. Kate"	2	30.0	0	0	"330972"	7.6292	NA	3	"test"	3	1	"1Connolly"	1	0	0	1	NA	NA
+899	0	2	"Caldwell, Mr. Albert Francis"	1	26.0	1	1	"248738"	29.0	NA	1	"test"	1	3	"3Caldwell"	18	0	0	1	NA	NA
+900	1	3	"Abrahim, Mrs. Joseph (Sophie Halaut Easu)"	2	18.0	0	0	"2657"	7.2292	NA	2	"test"	2	1	"1Abrahim"	1	0	0	1	NA	NA
+901	0	3	"Davies, Mr. John Samuel"	1	21.0	2	0	"A/4 48871"	24.15	NA	1	"test"	1	3	"3Davies"	68	0	0	1	NA	NA
+902	0	3	"Ilieff, Mr. Ylio"	1	28.8628808864266	0	0	"349220"	7.8958	NA	1	"test"	1	1	"1Ilieff"	1	0	0	1	NA	NA
+903	0	1	"Jones, Mr. Charles Cresson"	1	46.0	0	0	"694"	26.0	NA	1	"test"	1	1	"1Jones"	1	0	0	3	NA	NA
+904	1	1	"Snyder, Mrs. John Pillsbury (Nelle Stevenson)"	2	23.0	1	0	"21228"	82.2667	"B45"	1	"test"	2	2	"2Snyder"	1	0	0	7	"45"	"Middle"
+905	0	2	"Howard, Mr. Benjamin"	1	63.0	1	0	"24065"	26.0	NA	1	"test"	1	2	"2Howard"	1	0	0	1	NA	NA
+906	1	1	"Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood)"	2	47.0	1	0	"W.E.P. 5734"	61.175	"E31"	1	"test"	2	2	"2Chaffee"	1	0	0	3	"31"	"End"
+907	1	2	"del Carlo, Mrs. Sebastiano (Argenia Genovesi)"	2	24.0	1	0	"SC/PARIS 2167"	27.7208	NA	2	"test"	2	2	"2del Carlo"	1	0	0	1	NA	NA
+908	0	2	"Keane, Mr. Daniel"	1	35.0	0	0	"233734"	12.35	NA	3	"test"	1	1	"1Keane"	44	0	0	1	NA	NA
+909	0	3	"Assaf, Mr. Gerios"	1	21.0	0	0	"2692"	7.225	NA	2	"test"	1	1	"1Assaf"	1	0	0	1	NA	NA
+910	0	3	"Ilmakangas, Miss. Ida Livija"	2	27.0	1	0	"STON/O2. 3101270"	7.925	NA	1	"test"	3	2	"2Ilmakangas"	1	0	0	1	NA	NA
+911	1	3	"Assaf Khalil, Mrs. Mariana (Miriam\")\""	2	45.0	0	0	"2696"	7.225	NA	2	"test"	2	1	"1Assaf Khalil"	1	0	0	1	NA	NA
+912	0	1	"Rothschild, Mr. Martin"	1	55.0	1	0	"PC 17603"	59.4	NA	2	"test"	1	2	"2Rothschild"	1	0	0	7	NA	NA
+913	0	3	"Olsen, Master. Artur Karl"	1	9.0	0	1	"C 17368"	3.1708	NA	1	"test"	4	2	"2Olsen"	1	0	1	1	NA	NA
+914	1	1	"Flegenheim, Mrs. Alfred (Antoinette)"	2	42.5092165898618	0	0	"PC 17598"	31.6833	NA	1	"test"	2	1	"1Flegenheim"	1	0	0	2	NA	NA
+915	0	1	"Williams, Mr. Richard Norris II"	1	21.0	0	1	"PC 17597"	61.3792	NA	2	"test"	1	2	"2Williams"	1	0	0	7	NA	NA
+916	1	1	"Ryerson, Mrs. Arthur Larned (Emily Maria Borie)"	2	48.0	1	3	"PC 17608"	262.375	"B57 B59 B63 B66"	2	"test"	2	5	"5Ryerson"	45	1	0	7	"57 "	"Middle"
+917	0	3	"Robins, Mr. Alexander A"	1	50.0	1	0	"A/5. 3337"	14.5	NA	1	"test"	1	2	"2Robins"	1	0	0	1	NA	NA
+918	1	1	"Ostby, Miss. Helene Ragnhild"	2	22.0	0	1	"113509"	61.9792	"B36"	2	"test"	3	2	"2Ostby"	1	0	0	7	"36"	"Middle"
+919	0	3	"Daher, Mr. Shedid"	1	22.5	0	0	"2698"	7.225	NA	2	"test"	1	1	"1Daher"	1	0	0	1	NA	NA
+920	0	1	"Brady, Mr. John Bertram"	1	41.0	0	0	"113054"	30.5	"A21"	1	"test"	1	1	"1Brady"	1	0	0	6	"21"	"End"
+921	0	3	"Samaan, Mr. Elias"	1	28.8628808864266	2	0	"2662"	21.6792	NA	2	"test"	1	3	"3Samaan"	11	0	0	1	NA	NA
+922	0	2	"Louch, Mr. Charles Alexander"	1	50.0	1	0	"SC/AH 3085"	26.0	NA	1	"test"	1	2	"2Louch"	1	0	0	1	NA	NA
+923	0	2	"Jefferys, Mr. Clifford Thomas"	1	24.0	2	0	"C.A. 31029"	31.5	NA	1	"test"	1	3	"3Jefferys"	1	0	0	1	NA	NA
+924	0	3	"Dean, Mrs. Bertram (Eva Georgetta Light)"	2	33.0	1	2	"C.A. 2315"	20.575	NA	1	"test"	2	4	"4Dean"	20	1	0	1	NA	NA
+925	0	3	"Johnston, Mrs. Andrew G (Elizabeth Lily\" Watson)\""	2	28.8628808864266	1	2	"W./C. 6607"	23.45	NA	1	"test"	2	4	"4Johnston"	75	1	0	1	NA	NA
+926	0	1	"Mock, Mr. Philipp Edmund"	1	30.0	1	0	"13236"	57.75	"C78"	2	"test"	1	2	"2Mock"	1	0	0	2	"78"	"Front"
+927	0	3	"Katavelas, Mr. Vassilios (Catavelas Vassilios\")\""	1	18.5	0	0	"2682"	7.2292	NA	2	"test"	1	1	"1Katavelas"	1	0	0	1	NA	NA
+928	0	3	"Roth, Miss. Sarah A"	2	22.3115942028986	0	0	"342712"	8.05	NA	1	"test"	3	1	"1Roth"	1	0	0	1	NA	NA
+929	0	3	"Cacic, Miss. Manda"	2	21.0	0	0	"315087"	8.6625	NA	1	"test"	3	1	"1Cacic"	62	0	0	1	NA	NA
+930	0	3	"Sap, Mr. Julius"	1	25.0	0	0	"345768"	9.5	NA	1	"test"	1	1	"1Sap"	1	0	0	1	NA	NA
+931	0	3	"Hee, Mr. Ling"	1	28.8628808864266	0	0	"1601"	56.4958	NA	1	"test"	1	1	"1Hee"	1	0	0	1	NA	NA
+932	0	3	"Karun, Mr. Franz"	1	39.0	0	1	"349256"	13.4167	NA	2	"test"	1	2	"2Karun"	1	0	0	1	NA	NA
+933	0	1	"Franklin, Mr. Thomas Parham"	1	42.5092165898618	0	0	"113778"	26.55	"D34"	1	"test"	1	1	"1Franklin"	1	0	0	5	"34"	"Middle"
+934	0	3	"Goldsmith, Mr. Nathan"	1	41.0	0	0	"SOTON/O.Q. 3101263"	7.85	NA	1	"test"	1	1	"1Goldsmith"	1	0	0	1	NA	NA
+935	1	2	"Corbett, Mrs. Walter H (Irene Colvin)"	2	30.0	0	0	"237249"	13.0	NA	1	"test"	2	1	"1Corbett"	1	0	0	1	NA	NA
+936	1	1	"Kimball, Mrs. Edwin Nelson Jr (Gertrude Parsons)"	2	45.0	1	0	"11753"	52.5542	"D19"	1	"test"	2	2	"2Kimball"	1	0	0	5	"19"	"End"
+937	0	3	"Peltomaki, Mr. Nikolai Johannes"	1	25.0	0	0	"STON/O 2. 3101291"	7.925	NA	1	"test"	1	1	"1Peltomaki"	1	0	0	1	NA	NA
+938	0	1	"Chevre, Mr. Paul Romaine"	1	45.0	0	0	"PC 17594"	29.7	"A9"	2	"test"	1	1	"1Chevre"	1	0	0	6	"9"	"End"
+939	0	3	"Shaughnessy, Mr. Patrick"	1	28.8628808864266	0	0	"370374"	7.75	NA	3	"test"	1	1	"1Shaughnessy"	1	0	0	1	NA	NA
+940	1	1	"Bucknell, Mrs. William Robert (Emma Eliza Ward)"	2	60.0	0	0	"11813"	76.2917	"D15"	2	"test"	2	1	"1Bucknell"	1	0	0	5	"15"	"End"
+941	1	3	"Coutts, Mrs. William (Winnie Minnie\" Treanor)\""	2	36.0	0	2	"C.A. 37671"	15.9	NA	1	"test"	2	3	"3Coutts"	50	1	0	1	NA	NA
+942	0	1	"Smith, Mr. Lucien Philip"	1	24.0	1	0	"13695"	60.0	"C31"	1	"test"	1	2	"2Smith"	1	0	0	2	"31"	"End"
+943	0	2	"Pulbaum, Mr. Franz"	1	27.0	0	0	"SC/PARIS 2168"	15.0333	NA	2	"test"	1	1	"1Pulbaum"	1	0	0	1	NA	NA
+944	1	2	"Hocking, Miss. Ellen Nellie\"\""	2	20.0	2	1	"29105"	23.0	NA	1	"test"	3	4	"4Hocking"	1	0	0	1	NA	NA
+945	1	1	"Fortune, Miss. Ethel Flora"	2	28.0	3	2	"19950"	263.0	"C23 C25 C27"	1	"test"	3	6	"6Fortune"	9	0	0	2	"23 "	"End"
+946	0	2	"Mangiavacchi, Mr. Serafino Emilio"	1	33.0519801980198	0	0	"SC/A.3 2861"	15.5792	NA	2	"test"	1	1	"1Mangiavacchi"	1	0	0	1	NA	NA
+947	0	3	"Rice, Master. Albert"	1	10.0	4	1	"382652"	29.125	NA	3	"test"	4	6	"6Rice"	6	0	1	1	NA	NA
+948	0	3	"Cor, Mr. Bartol"	1	35.0	0	0	"349230"	7.8958	NA	1	"test"	1	1	"1Cor"	71	0	0	1	NA	NA
+949	0	3	"Abelseth, Mr. Olaus Jorgensen"	1	25.0	0	0	"348122"	7.65	"F G63"	1	"test"	1	1	"1Abelseth"	1	0	0	1	" "	NA
+950	0	3	"Davison, Mr. Thomas Henry"	1	28.8628808864266	1	0	"386525"	16.1	NA	1	"test"	1	2	"2Davison"	1	0	0	1	NA	NA
+951	1	1	"Chaudanson, Miss. Victorine"	2	36.0	0	0	"PC 17608"	262.375	"B61"	2	"test"	3	1	"1Chaudanson"	1	0	0	7	"61"	"Middle"
+952	0	3	"Dika, Mr. Mirko"	1	17.0	0	0	"349232"	7.8958	NA	1	"test"	1	1	"1Dika"	1	0	0	1	NA	NA
+953	0	2	"McCrae, Mr. Arthur Gordon"	1	32.0	0	0	"237216"	13.5	NA	1	"test"	1	1	"1McCrae"	1	0	0	1	NA	NA
+954	0	3	"Bjorklund, Mr. Ernst Herbert"	1	18.0	0	0	"347090"	7.75	NA	1	"test"	1	1	"1Bjorklund"	1	0	0	1	NA	NA
+955	1	3	"Bradley, Miss. Bridget Delia"	2	22.0	0	0	"334914"	7.725	NA	3	"test"	3	1	"1Bradley"	1	0	0	1	NA	NA
+956	1	1	"Ryerson, Master. John Borie"	1	13.0	2	2	"PC 17608"	262.375	"B57 B59 B63 B66"	2	"test"	4	5	"5Ryerson"	45	0	1	7	"57 "	"Middle"
+957	1	2	"Corey, Mrs. Percy C (Mary Phyllis Elizabeth Miller)"	2	33.0519801980198	0	0	"F.C.C. 13534"	21.0	NA	1	"test"	2	1	"1Corey"	1	0	0	1	NA	NA
+958	1	3	"Burns, Miss. Mary Delia"	2	18.0	0	0	"330963"	7.8792	NA	3	"test"	3	1	"1Burns"	1	0	0	1	NA	NA
+959	0	1	"Moore, Mr. Clarence Bloomfield"	1	47.0	0	0	"113796"	42.4	NA	1	"test"	1	1	"1Moore"	1	0	0	2	NA	NA
+960	0	1	"Tucker, Mr. Gilbert Milligan Jr"	1	31.0	0	0	"2543"	28.5375	"C53"	2	"test"	1	1	"1Tucker"	1	0	0	2	"53"	"Middle"
+961	1	1	"Fortune, Mrs. Mark (Mary McDougald)"	2	60.0	1	4	"19950"	263.0	"C23 C25 C27"	1	"test"	2	6	"6Fortune"	9	1	0	2	"23 "	"End"
+962	1	3	"Mulvihill, Miss. Bertha E"	2	24.0	0	0	"382653"	7.75	NA	3	"test"	3	1	"1Mulvihill"	1	0	0	1	NA	NA
+963	0	3	"Minkoff, Mr. Lazar"	1	21.0	0	0	"349211"	7.8958	NA	1	"test"	1	1	"1Minkoff"	1	0	0	1	NA	NA
+964	0	3	"Nieminen, Miss. Manta Josefina"	2	29.0	0	0	"3101297"	7.925	NA	1	"test"	3	1	"1Nieminen"	1	0	0	1	NA	NA
+965	0	1	"Ovies y Rodriguez, Mr. Servando"	1	28.5	0	0	"PC 17562"	27.7208	"D43"	2	"test"	1	1	"1Ovies y Rodriguez"	1	0	0	5	"43"	"Middle"
+966	1	1	"Geiger, Miss. Amalie"	2	35.0	0	0	"113503"	211.5	"C130"	2	"test"	3	1	"1Geiger"	1	0	0	2	"130"	"Front"
+967	0	1	"Keeping, Mr. Edwin"	1	32.5	0	0	"113503"	211.5	"C132"	2	"test"	1	1	"1Keeping"	1	0	0	2	"132"	"Front"
+968	0	3	"Miles, Mr. Frank"	1	28.8628808864266	0	0	"359306"	8.05	NA	1	"test"	1	1	"1Miles"	1	0	0	1	NA	NA
+969	1	1	"Cornell, Mrs. Robert Clifford (Malvina Helen Lamson)"	2	55.0	2	0	"11770"	25.7	"C101"	1	"test"	2	3	"3Cornell"	1	0	0	2	"101"	"Front"
+970	0	2	"Aldworth, Mr. Charles Augustus"	1	30.0	0	0	"248744"	13.0	NA	1	"test"	1	1	"1Aldworth"	1	0	0	1	NA	NA
+971	1	3	"Doyle, Miss. Elizabeth"	2	24.0	0	0	"368702"	7.75	NA	3	"test"	3	1	"1Doyle"	1	0	0	1	NA	NA
+972	0	3	"Boulos, Master. Akar"	1	6.0	1	1	"2678"	15.2458	NA	2	"test"	4	3	"3Boulos"	24	0	1	1	NA	NA
+973	0	1	"Straus, Mr. Isidor"	1	67.0	1	0	"PC 17483"	221.7792	"C55 C57"	1	"test"	1	2	"2Straus"	1	0	0	2	"55 "	"Middle"
+974	0	1	"Case, Mr. Howard Brown"	1	49.0	0	0	"19924"	26.0	NA	1	"test"	1	1	"1Case"	1	0	0	3	NA	NA
+975	0	3	"Demetri, Mr. Marinko"	1	28.8628808864266	0	0	"349238"	7.8958	NA	1	"test"	1	1	"1Demetri"	1	0	0	1	NA	NA
+976	0	2	"Lamb, Mr. John Joseph"	1	33.0519801980198	0	0	"240261"	10.7083	NA	3	"test"	1	1	"1Lamb"	1	0	0	1	NA	NA
+977	0	3	"Khalil, Mr. Betros"	1	28.8628808864266	1	0	"2660"	14.4542	NA	2	"test"	1	2	"2Khalil"	1	0	0	1	NA	NA
+978	1	3	"Barry, Miss. Julia"	2	27.0	0	0	"330844"	7.8792	NA	3	"test"	3	1	"1Barry"	1	0	0	1	NA	NA
+979	0	3	"Badman, Miss. Emily Louisa"	2	18.0	0	0	"A/4 31416"	8.05	NA	1	"test"	3	1	"1Badman"	1	0	0	1	NA	NA
+980	0	3	"O\'Donoghue, Ms. Bridget"	2	28.8628808864266	0	0	"364856"	7.75	NA	3	"test"	9	1	"1O\'Donoghue"	1	0	0	1	NA	NA
+981	1	2	"Wells, Master. Ralph Lester"	1	2.0	1	1	"29103"	23.0	NA	1	"test"	4	3	"3Wells"	73	0	1	1	NA	NA
+982	1	3	"Dyker, Mrs. Adolf Fredrik (Anna Elisabeth Judith Andersson)"	2	22.0	1	0	"347072"	13.9	NA	1	"test"	2	2	"2Dyker"	1	0	0	1	NA	NA
+983	0	3	"Pedersen, Mr. Olaf"	1	28.8628808864266	0	0	"345498"	7.775	NA	1	"test"	1	1	"1Pedersen"	1	0	0	1	NA	NA
+984	1	1	"Davidson, Mrs. Thornton (Orian Hays)"	2	27.0	1	2	"F.C. 12750"	52.0	"B71"	1	"test"	2	4	"4Davidson"	1	1	0	7	"71"	"Middle"
+985	0	3	"Guest, Mr. Robert"	1	28.8628808864266	0	0	"376563"	8.05	NA	1	"test"	1	1	"1Guest"	1	0	0	1	NA	NA
+986	0	1	"Birnbaum, Mr. Jakob"	1	25.0	0	0	"13905"	26.0	NA	2	"test"	1	1	"1Birnbaum"	1	0	0	3	NA	NA
+987	0	3	"Tenglin, Mr. Gunnar Isidor"	1	25.0	0	0	"350033"	7.7958	NA	1	"test"	1	1	"1Tenglin"	1	0	0	1	NA	NA
+988	1	1	"Cavendish, Mrs. Tyrell William (Julia Florence Siegel)"	2	76.0	1	0	"19877"	78.85	"C46"	1	"test"	2	2	"2Cavendish"	1	0	0	2	"46"	"Middle"
+989	0	3	"Makinen, Mr. Kalle Edvard"	1	29.0	0	0	"STON/O 2. 3101268"	7.925	NA	1	"test"	1	1	"1Makinen"	1	0	0	1	NA	NA
+990	1	3	"Braf, Miss. Elin Ester Maria"	2	20.0	0	0	"347471"	7.8542	NA	1	"test"	3	1	"1Braf"	1	0	0	1	NA	NA
+991	0	3	"Nancarrow, Mr. William Henry"	1	33.0	0	0	"A./5. 3338"	8.05	NA	1	"test"	1	1	"1Nancarrow"	1	0	0	1	NA	NA
+992	1	1	"Stengel, Mrs. Charles Emil Henry (Annie May Morris)"	2	43.0	1	0	"11778"	55.4417	"C116"	2	"test"	2	2	"2Stengel"	1	0	0	2	"116"	"Front"
+993	0	2	"Weisz, Mr. Leopold"	1	27.0	1	0	"228414"	26.0	NA	1	"test"	1	2	"2Weisz"	1	0	0	1	NA	NA
+994	0	3	"Foley, Mr. William"	1	28.8628808864266	0	0	"365235"	7.75	NA	3	"test"	1	1	"1Foley"	1	0	0	1	NA	NA
+995	0	3	"Johansson Palmquist, Mr. Oskar Leander"	1	26.0	0	0	"347070"	7.775	NA	1	"test"	1	1	"1Johansson Palmquist"	1	0	0	1	NA	NA
+996	1	3	"Thomas, Mrs. Alexander (Thamine Thelma\")\""	2	16.0	1	1	"2625"	8.5167	NA	2	"test"	2	3	"3Thomas"	1	0	1	1	NA	NA
+997	0	3	"Holthen, Mr. Johan Martin"	1	28.0	0	0	"C 4001"	22.525	NA	1	"test"	1	1	"1Holthen"	1	0	0	1	NA	NA
+998	0	3	"Buckley, Mr. Daniel"	1	21.0	0	0	"330920"	7.8208	NA	3	"test"	1	1	"1Buckley"	1	0	0	1	NA	NA
+999	0	3	"Ryan, Mr. Edward"	1	28.8628808864266	0	0	"383162"	7.75	NA	3	"test"	1	1	"1Ryan"	1	0	0	1	NA	NA
+1000	0	3	"Willer, Mr. Aaron (Abi Weller\")\""	1	28.8628808864266	0	0	"3410"	8.7125	NA	1	"test"	1	1	"1Willer"	1	0	0	1	NA	NA
+1001	0	2	"Swane, Mr. George"	1	18.5	0	0	"248734"	13.0	"F"	1	"test"	1	1	"1Swane"	1	0	0	1	NA	NA
+1002	0	2	"Stanton, Mr. Samuel Ward"	1	41.0	0	0	"237734"	15.0458	NA	2	"test"	1	1	"1Stanton"	1	0	0	1	NA	NA
+1003	1	3	"Shine, Miss. Ellen Natalia"	2	22.3115942028986	0	0	"330968"	7.7792	NA	3	"test"	3	1	"1Shine"	1	0	0	1	NA	NA
+1004	1	1	"Evans, Miss. Edith Corse"	2	36.0	0	0	"PC 17531"	31.6792	"A29"	2	"test"	3	1	"1Evans"	1	0	0	6	"29"	"End"
+1005	1	3	"Buckley, Miss. Katherine"	2	18.5	0	0	"329944"	7.2833	NA	3	"test"	3	1	"1Buckley"	1	0	0	1	NA	NA
+1006	1	1	"Straus, Mrs. Isidor (Rosalie Ida Blun)"	2	63.0	1	0	"PC 17483"	221.7792	"C55 C57"	1	"test"	2	2	"2Straus"	1	0	0	2	"55 "	"Middle"
+1007	0	3	"Chronopoulos, Mr. Demetrios"	1	18.0	1	0	"2680"	14.4542	NA	2	"test"	1	2	"2Chronopoulos"	1	0	0	1	NA	NA
+1008	0	3	"Thomas, Mr. John"	1	28.8628808864266	0	0	"2681"	6.4375	NA	2	"test"	1	1	"1Thomas"	1	0	0	1	NA	NA
+1009	1	3	"Sandstrom, Miss. Beatrice Irene"	2	1.0	1	1	"PP 9549"	16.7	"G6"	1	"test"	3	3	"3Sandstrom"	4	0	1	4	"6"	"End"
+1010	0	1	"Beattie, Mr. Thomson"	1	36.0	0	0	"13050"	75.2417	"C6"	2	"test"	1	1	"1Beattie"	1	0	0	2	"6"	"End"
+1011	1	2	"Chapman, Mrs. John Henry (Sara Elizabeth Lawry)"	2	29.0	1	0	"SC/AH 29037"	26.0	NA	1	"test"	2	2	"2Chapman"	1	0	0	1	NA	NA
+1012	1	2	"Watt, Miss. Bertha J"	2	12.0	0	0	"C.A. 33595"	15.75	NA	1	"test"	3	1	"1Watt"	1	0	0	1	NA	NA
+1013	0	3	"Kiernan, Mr. John"	1	28.8628808864266	1	0	"367227"	7.75	NA	3	"test"	1	2	"2Kiernan"	1	0	0	1	NA	NA
+1014	1	1	"Schabert, Mrs. Paul (Emma Mock)"	2	35.0	1	0	"13236"	57.75	"C28"	2	"test"	2	2	"2Schabert"	1	0	0	2	"28"	"End"
+1015	0	3	"Carver, Mr. Alfred John"	1	28.0	0	0	"392095"	7.25	NA	1	"test"	1	1	"1Carver"	1	0	0	1	NA	NA
+1016	0	3	"Kennedy, Mr. John"	1	28.8628808864266	0	0	"368783"	7.75	NA	3	"test"	1	1	"1Kennedy"	1	0	0	1	NA	NA
+1017	1	3	"Cribb, Miss. Laura Alice"	2	17.0	0	1	"371362"	16.1	NA	1	"test"	3	2	"2Cribb"	1	0	1	1	NA	NA
+1018	0	3	"Brobeck, Mr. Karl Rudolf"	1	22.0	0	0	"350045"	7.7958	NA	1	"test"	1	1	"1Brobeck"	1	0	0	1	NA	NA
+1019	1	3	"McCoy, Miss. Alicia"	2	22.3115942028986	2	0	"367226"	23.25	NA	3	"test"	3	3	"3McCoy"	42	0	0	1	NA	NA
+1020	0	2	"Bowenur, Mr. Solomon"	1	42.0	0	0	"211535"	13.0	NA	1	"test"	1	1	"1Bowenur"	1	0	0	1	NA	NA
+1021	0	3	"Petersen, Mr. Marius"	1	24.0	0	0	"342441"	8.05	NA	1	"test"	1	1	"1Petersen"	1	0	0	1	NA	NA
+1022	0	3	"Spinner, Mr. Henry John"	1	32.0	0	0	"STON/OQ. 369943"	8.05	NA	1	"test"	1	1	"1Spinner"	1	0	0	1	NA	NA
+1023	0	1	"Gracie, Col. Archibald IV"	1	53.0	0	0	"113780"	28.5	"C51"	2	"test"	12	1	"1Gracie"	1	0	0	2	"51"	"Middle"
+1024	0	3	"Lefebre, Mrs. Frank (Frances)"	2	28.8628808864266	0	4	"4133"	25.4667	NA	1	"test"	2	5	"5Lefebre"	31	1	0	1	NA	NA
+1025	0	3	"Thomas, Mr. Charles P"	1	28.8628808864266	1	0	"2621"	6.4375	NA	2	"test"	1	2	"2Thomas"	1	0	0	1	NA	NA
+1026	0	3	"Dintcheff, Mr. Valtcho"	1	43.0	0	0	"349226"	7.8958	NA	1	"test"	1	1	"1Dintcheff"	1	0	0	1	NA	NA
+1027	0	3	"Carlsson, Mr. Carl Robert"	1	24.0	0	0	"350409"	7.8542	NA	1	"test"	1	1	"1Carlsson"	74	0	0	1	NA	NA
+1028	0	3	"Zakarian, Mr. Mapriededer"	1	26.5	0	0	"2656"	7.225	NA	2	"test"	1	1	"1Zakarian"	1	0	0	1	NA	NA
+1029	0	2	"Schmidt, Mr. August"	1	26.0	0	0	"248659"	13.0	NA	1	"test"	1	1	"1Schmidt"	1	0	0	1	NA	NA
+1030	0	3	"Drapkin, Miss. Jennie"	2	23.0	0	0	"SOTON/OQ 392083"	8.05	NA	1	"test"	3	1	"1Drapkin"	1	0	0	1	NA	NA
+1031	0	3	"Goodwin, Mr. Charles Frederick"	1	40.0	1	6	"CA 2144"	46.9	NA	1	"test"	1	8	"8Goodwin"	15	0	0	1	NA	NA
+1032	0	3	"Goodwin, Miss. Jessie Allis"	2	10.0	5	2	"CA 2144"	46.9	NA	1	"test"	3	8	"8Goodwin"	15	0	1	1	NA	NA
+1033	1	1	"Daniels, Miss. Sarah"	2	33.0	0	0	"113781"	151.55	NA	1	"test"	3	1	"1Daniels"	1	0	0	2	NA	NA
+1034	0	1	"Ryerson, Mr. Arthur Larned"	1	61.0	1	3	"PC 17608"	262.375	"B57 B59 B63 B66"	2	"test"	1	5	"5Ryerson"	45	0	0	7	"57 "	"Middle"
+1035	0	2	"Beauchamp, Mr. Henry James"	1	28.0	0	0	"244358"	26.0	NA	1	"test"	1	1	"1Beauchamp"	1	0	0	1	NA	NA
+1036	0	1	"Lindeberg-Lind, Mr. Erik Gustaf (Mr Edward Lingrey\")\""	1	42.0	0	0	"17475"	26.55	NA	1	"test"	1	1	"1Lindeberg-Lind"	1	0	0	3	NA	NA
+1037	0	3	"Vander Planke, Mr. Julius"	1	31.0	3	0	"345763"	18.0	NA	1	"test"	1	4	"4Vander Planke"	1	0	0	1	NA	NA
+1038	0	1	"Hilliard, Mr. Herbert Henry"	1	42.5092165898618	0	0	"17463"	51.8625	"E46"	1	"test"	1	1	"1Hilliard"	1	0	0	3	"46"	"Middle"
+1039	0	3	"Davies, Mr. Evan"	1	22.0	0	0	"SC/A4 23568"	8.05	NA	1	"test"	1	1	"1Davies"	1	0	0	1	NA	NA
+1040	0	1	"Crafton, Mr. John Bertram"	1	42.5092165898618	0	0	"113791"	26.55	NA	1	"test"	1	1	"1Crafton"	1	0	0	3	NA	NA
+1041	0	2	"Lahtinen, Rev. William"	1	30.0	1	1	"250651"	26.0	NA	1	"test"	6	3	"3Lahtinen"	1	0	0	1	NA	NA
+1042	1	1	"Earnshaw, Mrs. Boulton (Olive Potter)"	2	23.0	0	1	"11767"	83.1583	"C54"	2	"test"	2	2	"2Earnshaw"	1	1	0	2	"54"	"Middle"
+1043	0	3	"Matinoff, Mr. Nicola"	1	28.8628808864266	0	0	"349255"	7.8958	NA	2	"test"	1	1	"1Matinoff"	1	0	0	1	NA	NA
+1044	0	3	"Storey, Mr. Thomas"	1	60.5	0	0	"3701"	12.0824648221344	NA	1	"test"	1	1	"1Storey"	1	0	0	1	NA	NA
+1045	0	3	"Klasen, Mrs. (Hulda Kristina Eugenia Lofqvist)"	2	36.0	0	2	"350405"	12.1833	NA	1	"test"	2	3	"3Klasen"	30	1	0	1	NA	NA
+1046	0	3	"Asplund, Master. Filip Oscar"	1	13.0	4	2	"347077"	31.3875	NA	1	"test"	4	7	"7Asplund"	8	0	1	1	NA	NA
+1047	0	3	"Duquemin, Mr. Joseph"	1	24.0	0	0	"S.O./P.P. 752"	7.55	NA	1	"test"	1	1	"1Duquemin"	1	0	0	1	NA	NA
+1048	1	1	"Bird, Miss. Ellen"	2	29.0	0	0	"PC 17483"	221.7792	"C97"	1	"test"	3	1	"1Bird"	1	0	0	2	"97"	"Front"
+1049	1	3	"Lundin, Miss. Olga Elida"	2	23.0	0	0	"347469"	7.8542	NA	1	"test"	3	1	"1Lundin"	1	0	0	1	NA	NA
+1050	0	1	"Borebank, Mr. John James"	1	42.0	0	0	"110489"	26.55	"D22"	1	"test"	1	1	"1Borebank"	1	0	0	5	"22"	"End"
+1051	0	3	"Peacock, Mrs. Benjamin (Edith Nile)"	2	26.0	0	2	"SOTON/O.Q. 3101315"	13.775	NA	1	"test"	2	3	"3Peacock"	78	1	0	1	NA	NA
+1052	1	3	"Smyth, Miss. Julia"	2	22.3115942028986	0	0	"335432"	7.7333	NA	3	"test"	3	1	"1Smyth"	1	0	0	1	NA	NA
+1053	1	3	"Touma, Master. Georges Youssef"	1	7.0	1	1	"2650"	15.2458	NA	2	"test"	4	3	"3Touma"	36	0	1	1	NA	NA
+1054	1	2	"Wright, Miss. Marion"	2	26.0	0	0	"220844"	13.5	NA	1	"test"	3	1	"1Wright"	1	0	0	1	NA	NA
+1055	0	3	"Pearce, Mr. Ernest"	1	28.8628808864266	0	0	"343271"	7.0	NA	1	"test"	1	1	"1Pearce"	1	0	0	1	NA	NA
+1056	0	2	"Peruschitz, Rev. Joseph Maria"	1	41.0	0	0	"237393"	13.0	NA	1	"test"	6	1	"1Peruschitz"	1	0	0	1	NA	NA
+1057	1	3	"Kink-Heilmann, Mrs. Anton (Luise Heilmann)"	2	26.0	1	1	"315153"	22.025	NA	1	"test"	2	3	"3Kink-Heilmann"	1	1	0	1	NA	NA
+1058	0	1	"Brandeis, Mr. Emil"	1	48.0	0	0	"PC 17591"	50.4958	"B10"	2	"test"	1	1	"1Brandeis"	1	0	0	7	"10"	"End"
+1059	0	3	"Ford, Mr. Edward Watson"	1	18.0	2	2	"W./C. 6608"	34.375	NA	1	"test"	1	5	"5Ford"	19	0	1	1	NA	NA
+1060	1	1	"Cassebeer, Mrs. Henry Arthur Jr (Eleanor Genevieve Fosdick)"	2	42.5092165898618	0	0	"17770"	27.7208	NA	2	"test"	2	1	"1Cassebeer"	1	0	0	2	NA	NA
+1061	0	3	"Hellstrom, Miss. Hilda Maria"	2	22.0	0	0	"7548"	8.9625	NA	1	"test"	3	1	"1Hellstrom"	1	0	0	1	NA	NA
+1062	0	3	"Lithman, Mr. Simon"	1	28.8628808864266	0	0	"S.O./P.P. 251"	7.55	NA	1	"test"	1	1	"1Lithman"	1	0	0	1	NA	NA
+1063	0	3	"Zakarian, Mr. Ortin"	1	27.0	0	0	"2670"	7.225	NA	2	"test"	1	1	"1Zakarian"	1	0	0	1	NA	NA
+1064	0	3	"Dyker, Mr. Adolf Fredrik"	1	23.0	1	0	"347072"	13.9	NA	1	"test"	1	2	"2Dyker"	1	0	0	1	NA	NA
+1065	0	3	"Torfa, Mr. Assad"	1	28.8628808864266	0	0	"2673"	7.2292	NA	2	"test"	1	1	"1Torfa"	1	0	0	1	NA	NA
+1066	0	3	"Asplund, Mr. Carl Oscar Vilhelm Gustafsson"	1	40.0	1	5	"347077"	31.3875	NA	1	"test"	1	7	"7Asplund"	8	0	0	1	NA	NA
+1067	1	2	"Brown, Miss. Edith Eileen"	2	15.0	0	2	"29750"	39.0	NA	1	"test"	3	3	"3Brown"	72	0	1	1	NA	NA
+1068	1	2	"Sincock, Miss. Maude"	2	20.0	0	0	"C.A. 33112"	36.75	NA	1	"test"	3	1	"1Sincock"	1	0	0	1	NA	NA
+1069	0	1	"Stengel, Mr. Charles Emil Henry"	1	54.0	1	0	"11778"	55.4417	"C116"	2	"test"	1	2	"2Stengel"	1	0	0	2	"116"	"Front"
+1070	1	2	"Becker, Mrs. Allen Oliver (Nellie E Baumgardner)"	2	36.0	0	3	"230136"	39.0	"F4"	1	"test"	2	4	"4Becker"	32	1	0	1	"4"	"End"
+1071	1	1	"Compton, Mrs. Alexander Taylor (Mary Eliza Ingersoll)"	2	64.0	0	2	"PC 17756"	83.1583	"E45"	2	"test"	2	3	"3Compton"	77	1	0	3	"45"	"Middle"
+1072	0	2	"McCrie, Mr. James Matthew"	1	30.0	0	0	"233478"	13.0	NA	1	"test"	1	1	"1McCrie"	1	0	0	1	NA	NA
+1073	0	1	"Compton, Mr. Alexander Taylor Jr"	1	37.0	1	1	"PC 17756"	83.1583	"E52"	2	"test"	1	3	"3Compton"	77	0	0	3	"52"	"Middle"
+1074	1	1	"Marvin, Mrs. Daniel Warner (Mary Graham Carmichael Farquarson)"	2	18.0	1	0	"113773"	53.1	"D30"	1	"test"	2	2	"2Marvin"	1	0	0	5	"30"	"End"
+1075	0	3	"Lane, Mr. Patrick"	1	28.8628808864266	0	0	"7935"	7.75	NA	3	"test"	1	1	"1Lane"	1	0	0	1	NA	NA
+1076	1	1	"Douglas, Mrs. Frederick Charles (Mary Helene Baxter)"	2	27.0	1	1	"PC 17558"	247.5208	"B58 B60"	2	"test"	2	3	"3Douglas"	1	1	0	7	"58 "	"Middle"
+1077	0	2	"Maybery, Mr. Frank Hubert"	1	40.0	0	0	"239059"	16.0	NA	1	"test"	1	1	"1Maybery"	1	0	0	1	NA	NA
+1078	1	2	"Phillips, Miss. Alice Frances Louisa"	2	21.0	0	1	"S.O./P.P. 2"	21.0	NA	1	"test"	3	2	"2Phillips"	1	0	0	1	NA	NA
+1079	0	3	"Davies, Mr. Joseph"	1	17.0	2	0	"A/4 48873"	8.05	NA	1	"test"	1	3	"3Davies"	68	0	0	1	NA	NA
+1080	0	3	"Sage, Miss. Ada"	2	18.8168	8	2	"CA. 2343"	69.55	NA	1	"test"	3	11	"11Sage"	27	0	0	1	NA	NA
+1081	0	2	"Veal, Mr. James"	1	40.0	0	0	"28221"	13.0	NA	1	"test"	1	1	"1Veal"	1	0	0	1	NA	NA
+1082	0	2	"Angle, Mr. William A"	1	34.0	1	0	"226875"	26.0	NA	1	"test"	1	2	"2Angle"	1	0	0	1	NA	NA
+1083	0	1	"Salomon, Mr. Abraham L"	1	42.5092165898618	0	0	"111163"	26.0	NA	1	"test"	1	1	"1Salomon"	1	0	0	3	NA	NA
+1084	0	3	"van Billiard, Master. Walter John"	1	11.5	1	1	"A/5. 851"	14.5	NA	1	"test"	4	3	"3van Billiard"	26	0	1	1	NA	NA
+1085	0	2	"Lingane, Mr. John"	1	61.0	0	0	"235509"	12.35	NA	3	"test"	1	1	"1Lingane"	1	0	0	1	NA	NA
+1086	1	2	"Drew, Master. Marshall Brines"	1	8.0	0	2	"28220"	32.5	NA	1	"test"	4	3	"3Drew"	56	0	1	1	NA	NA
+1087	0	3	"Karlsson, Mr. Julius Konrad Eugen"	1	33.0	0	0	"347465"	7.8542	NA	1	"test"	1	1	"1Karlsson"	63	0	0	1	NA	NA
+1088	1	1	"Spedden, Master. Robert Douglas"	1	6.0	0	2	"16966"	134.5	"E34"	2	"test"	4	3	"3Spedden"	49	0	1	3	"34"	"Middle"
+1089	1	3	"Nilsson, Miss. Berta Olivia"	2	18.0	0	0	"347066"	7.775	NA	1	"test"	3	1	"1Nilsson"	47	0	0	1	NA	NA
+1090	0	2	"Baimbrigge, Mr. Charles Robert"	1	23.0	0	0	"C.A. 31030"	10.5	NA	1	"test"	1	1	"1Baimbrigge"	1	0	0	1	NA	NA
+1091	0	3	"Rasmussen, Mrs. (Lena Jacobsen Solvang)"	2	28.8628808864266	0	0	"65305"	8.1125	NA	1	"test"	2	1	"1Rasmussen"	1	0	0	1	NA	NA
+1092	1	3	"Murphy, Miss. Nora"	2	22.3115942028986	0	0	"36568"	15.5	NA	3	"test"	3	1	"1Murphy"	1	0	0	1	NA	NA
+1093	0	3	"Danbom, Master. Gilbert Sigvard Emanuel"	1	0.33	0	2	"347080"	14.4	NA	1	"test"	4	3	"3Danbom"	58	0	1	1	NA	NA
+1094	1	1	"Astor, Col. John Jacob"	1	47.0	1	0	"PC 17757"	227.525	"C62 C64"	2	"test"	12	2	"2Astor"	1	0	0	2	"62 "	"Middle"
+1095	1	2	"Quick, Miss. Winifred Vera"	2	8.0	1	1	"26360"	26.0	NA	1	"test"	3	3	"3Quick"	65	0	1	1	NA	NA
+1096	0	2	"Andrew, Mr. Frank Thomas"	1	25.0	0	0	"C.A. 34050"	10.5	NA	1	"test"	1	1	"1Andrew"	1	0	0	1	NA	NA
+1097	0	1	"Omont, Mr. Alfred Fernand"	1	42.5092165898618	0	0	"F.C. 12998"	25.7417	NA	2	"test"	1	1	"1Omont"	1	0	0	7	NA	NA
+1098	1	3	"McGowan, Miss. Katherine"	2	35.0	0	0	"9232"	7.75	NA	3	"test"	3	1	"1McGowan"	1	0	0	1	NA	NA
+1099	0	2	"Collett, Mr. Sidney C Stuart"	1	24.0	0	0	"28034"	10.5	NA	1	"test"	1	1	"1Collett"	1	0	0	1	NA	NA
+1100	1	1	"Rosenbaum, Miss. Edith Louise"	2	33.0	0	0	"PC 17613"	27.7208	"A11"	2	"test"	3	1	"1Rosenbaum"	1	0	0	6	"11"	"End"
+1101	0	3	"Delalic, Mr. Redjo"	1	25.0	0	0	"349250"	7.8958	NA	1	"test"	1	1	"1Delalic"	1	0	0	1	NA	NA
+1102	0	3	"Andersen, Mr. Albert Karvin"	1	32.0	0	0	"C 4001"	22.525	NA	1	"test"	1	1	"1Andersen"	1	0	0	1	NA	NA
+1103	0	3	"Finoli, Mr. Luigi"	1	28.8628808864266	0	0	"SOTON/O.Q. 3101308"	7.05	NA	1	"test"	1	1	"1Finoli"	1	0	0	1	NA	NA
+1104	0	2	"Deacon, Mr. Percy William"	1	17.0	0	0	"S.O.C. 14879"	73.5	NA	1	"test"	1	1	"1Deacon"	1	0	0	1	NA	NA
+1105	1	2	"Howard, Mrs. Benjamin (Ellen Truelove Arman)"	2	60.0	1	0	"24065"	26.0	NA	1	"test"	2	2	"2Howard"	1	0	0	1	NA	NA
+1106	0	3	"Andersson, Miss. Ida Augusta Margareta"	2	38.0	4	2	"347091"	7.775	NA	1	"test"	3	7	"7Andersson"	5	0	0	1	NA	NA
+1107	0	1	"Head, Mr. Christopher"	1	42.0	0	0	"113038"	42.5	"B11"	1	"test"	1	1	"1Head"	1	0	0	7	"11"	"End"
+1108	1	3	"Mahon, Miss. Bridget Delia"	2	22.3115942028986	0	0	"330924"	7.8792	NA	3	"test"	3	1	"1Mahon"	1	0	0	1	NA	NA
+1109	0	1	"Wick, Mr. George Dennick"	1	57.0	1	1	"36928"	164.8667	NA	1	"test"	1	3	"3Wick"	48	0	0	2	NA	NA
+1110	1	1	"Widener, Mrs. George Dunton (Eleanor Elkins)"	2	50.0	1	1	"113503"	211.5	"C80"	2	"test"	2	3	"3Widener"	52	1	0	2	"80"	"Front"
+1111	0	3	"Thomson, Mr. Alexander Morrison"	1	28.8628808864266	0	0	"32302"	8.05	NA	1	"test"	1	1	"1Thomson"	1	0	0	1	NA	NA
+1112	1	2	"Duran y More, Miss. Florentina"	2	30.0	1	0	"SC/PARIS 2148"	13.8583	NA	2	"test"	3	2	"2Duran y More"	1	0	0	1	NA	NA
+1113	0	3	"Reynolds, Mr. Harold J"	1	21.0	0	0	"342684"	8.05	NA	1	"test"	1	1	"1Reynolds"	1	0	0	1	NA	NA
+1114	1	2	"Cook, Mrs. (Selena Rogers)"	2	22.0	0	0	"W./C. 14266"	10.5	"F33"	1	"test"	2	1	"1Cook"	1	0	0	1	"33"	"Middle"
+1115	0	3	"Karlsson, Mr. Einar Gervasius"	1	21.0	0	0	"350053"	7.7958	NA	1	"test"	1	1	"1Karlsson"	63	0	0	1	NA	NA
+1116	1	1	"Candee, Mrs. Edward (Helen Churchill Hungerford)"	2	53.0	0	0	"PC 17606"	27.4458	NA	2	"test"	2	1	"1Candee"	1	0	0	2	NA	NA
+1117	1	3	"Moubarek, Mrs. George (Omine Amenia\" Alexander)\""	2	28.8628808864266	0	2	"2661"	15.2458	NA	2	"test"	2	3	"3Moubarek"	17	1	0	1	NA	NA
+1118	0	3	"Asplund, Mr. Johan Charles"	1	23.0	0	0	"350054"	7.7958	NA	1	"test"	1	1	"1Asplund"	1	0	0	1	NA	NA
+1119	1	3	"McNeill, Miss. Bridget"	2	22.3115942028986	0	0	"370368"	7.75	NA	3	"test"	3	1	"1McNeill"	1	0	0	1	NA	NA
+1120	0	3	"Everett, Mr. Thomas James"	1	40.5	0	0	"C.A. 6212"	15.1	NA	1	"test"	1	1	"1Everett"	1	0	0	1	NA	NA
+1121	0	2	"Hocking, Mr. Samuel James Metcalfe"	1	36.0	0	0	"242963"	13.0	NA	1	"test"	1	1	"1Hocking"	1	0	0	1	NA	NA
+1122	0	2	"Sweet, Mr. George Frederick"	1	14.0	0	0	"220845"	65.0	NA	1	"test"	1	1	"1Sweet"	1	0	0	1	NA	NA
+1123	1	1	"Willard, Miss. Constance"	2	21.0	0	0	"113795"	26.55	NA	1	"test"	3	1	"1Willard"	1	0	0	3	NA	NA
+1124	0	3	"Wiklund, Mr. Karl Johan"	1	21.0	1	0	"3101266"	6.4958	NA	1	"test"	1	2	"2Wiklund"	1	0	0	1	NA	NA
+1125	0	3	"Linehan, Mr. Michael"	1	28.8628808864266	0	0	"330971"	7.8792	NA	3	"test"	1	1	"1Linehan"	1	0	0	1	NA	NA
+1126	0	1	"Cumings, Mr. John Bradley"	1	39.0	1	0	"PC 17599"	71.2833	"C85"	2	"test"	1	2	"2Cumings"	1	0	0	2	"85"	"Front"
+1127	0	3	"Vendel, Mr. Olof Edvin"	1	20.0	0	0	"350416"	7.8542	NA	1	"test"	1	1	"1Vendel"	1	0	0	1	NA	NA
+1128	0	1	"Warren, Mr. Frank Manley"	1	64.0	1	0	"110813"	75.25	"D37"	2	"test"	1	2	"2Warren"	1	0	0	5	"37"	"Middle"
+1129	0	3	"Baccos, Mr. Raffull"	1	20.0	0	0	"2679"	7.225	NA	2	"test"	1	1	"1Baccos"	1	0	0	1	NA	NA
+1130	1	2	"Hiltunen, Miss. Marta"	2	18.0	1	1	"250650"	13.0	NA	1	"test"	3	3	"3Hiltunen"	1	0	1	1	NA	NA
+1131	1	1	"Douglas, Mrs. Walter Donald (Mahala Dutton)"	2	48.0	1	0	"PC 17761"	106.425	"C86"	2	"test"	2	2	"2Douglas"	1	0	0	2	"86"	"Front"
+1132	1	1	"Lindstrom, Mrs. Carl Johan (Sigrid Posse)"	2	55.0	0	0	"112377"	27.7208	NA	2	"test"	2	1	"1Lindstrom"	1	0	0	2	NA	NA
+1133	1	2	"Christy, Mrs. (Alice Frances)"	2	45.0	0	2	"237789"	30.0	NA	1	"test"	2	3	"3Christy"	1	1	0	1	NA	NA
+1134	0	1	"Spedden, Mr. Frederic Oakley"	1	45.0	1	1	"16966"	134.5	"E34"	2	"test"	1	3	"3Spedden"	49	0	0	3	"34"	"Middle"
+1135	0	3	"Hyman, Mr. Abraham"	1	28.8628808864266	0	0	"3470"	7.8875	NA	1	"test"	1	1	"1Hyman"	1	0	0	1	NA	NA
+1136	0	3	"Johnston, Master. William Arthur Willie\"\""	1	7.12378640776699	1	2	"W./C. 6607"	23.45	NA	1	"test"	4	4	"4Johnston"	75	0	1	1	NA	NA
+1137	0	1	"Kenyon, Mr. Frederick R"	1	41.0	1	0	"17464"	51.8625	"D21"	1	"test"	1	2	"2Kenyon"	1	0	0	5	"21"	"End"
+1138	1	2	"Karnes, Mrs. J Frank (Claire Bennett)"	2	22.0	0	0	"F.C.C. 13534"	21.0	NA	1	"test"	2	1	"1Karnes"	1	0	0	1	NA	NA
+1139	0	2	"Drew, Mr. James Vivian"	1	42.0	1	1	"28220"	32.5	NA	1	"test"	1	3	"3Drew"	56	0	0	1	NA	NA
+1140	1	2	"Hold, Mrs. Stephen (Annie Margaret Hill)"	2	29.0	1	0	"26707"	26.0	NA	1	"test"	2	2	"2Hold"	1	0	0	1	NA	NA
+1141	1	3	"Khalil, Mrs. Betros (Zahie Maria\" Elias)\""	2	28.8628808864266	1	0	"2660"	14.4542	NA	2	"test"	2	2	"2Khalil"	1	0	0	1	NA	NA
+1142	1	2	"West, Miss. Barbara J"	2	0.92	1	2	"C.A. 34651"	27.75	NA	1	"test"	3	4	"4West"	14	0	1	1	NA	NA
+1143	0	3	"Abrahamsson, Mr. Abraham August Johannes"	1	20.0	0	0	"SOTON/O2 3101284"	7.925	NA	1	"test"	1	1	"1Abrahamsson"	1	0	0	1	NA	NA
+1144	0	1	"Clark, Mr. Walter Miller"	1	27.0	1	0	"13508"	136.7792	"C89"	2	"test"	1	2	"2Clark"	1	0	0	2	"89"	"Front"
+1145	0	3	"Salander, Mr. Karl Johan"	1	24.0	0	0	"7266"	9.325	NA	1	"test"	1	1	"1Salander"	1	0	0	1	NA	NA
+1146	0	3	"Wenzel, Mr. Linhart"	1	32.5	0	0	"345775"	9.5	NA	1	"test"	1	1	"1Wenzel"	1	0	0	1	NA	NA
+1147	0	3	"MacKay, Mr. George William"	1	28.8628808864266	0	0	"C.A. 42795"	7.55	NA	1	"test"	1	1	"1MacKay"	1	0	0	1	NA	NA
+1148	0	3	"Mahon, Mr. John"	1	28.8628808864266	0	0	"AQ/4 3130"	7.75	NA	3	"test"	1	1	"1Mahon"	1	0	0	1	NA	NA
+1149	0	3	"Niklasson, Mr. Samuel"	1	28.0	0	0	"363611"	8.05	NA	1	"test"	1	1	"1Niklasson"	1	0	0	1	NA	NA
+1150	1	2	"Bentham, Miss. Lilian W"	2	19.0	0	0	"28404"	13.0	NA	1	"test"	3	1	"1Bentham"	1	0	0	1	NA	NA
+1151	0	3	"Midtsjo, Mr. Karl Albert"	1	21.0	0	0	"345501"	7.775	NA	1	"test"	1	1	"1Midtsjo"	1	0	0	1	NA	NA
+1152	0	3	"de Messemaeker, Mr. Guillaume Joseph"	1	36.5	1	0	"345572"	17.4	NA	1	"test"	1	2	"2de Messemaeker"	1	0	0	1	NA	NA
+1153	0	3	"Nilsson, Mr. August Ferdinand"	1	21.0	0	0	"350410"	7.8542	NA	1	"test"	1	1	"1Nilsson"	47	0	0	1	NA	NA
+1154	1	2	"Wells, Mrs. Arthur Henry (Addie\" Dart Trevaskis)\""	2	29.0	0	2	"29103"	23.0	NA	1	"test"	2	3	"3Wells"	73	1	0	1	NA	NA
+1155	1	3	"Klasen, Miss. Gertrud Emilia"	2	1.0	1	1	"350405"	12.1833	NA	1	"test"	3	3	"3Klasen"	30	0	1	1	NA	NA
+1156	0	2	"Portaluppi, Mr. Emilio Ilario Giuseppe"	1	30.0	0	0	"C.A. 34644"	12.7375	NA	2	"test"	1	1	"1Portaluppi"	1	0	0	1	NA	NA
+1157	0	3	"Lyntakoff, Mr. Stanko"	1	28.8628808864266	0	0	"349235"	7.8958	NA	1	"test"	1	1	"1Lyntakoff"	1	0	0	1	NA	NA
+1158	0	1	"Chisholm, Mr. Roderick Robert Crispin"	1	42.5092165898618	0	0	"112051"	0.0	NA	1	"test"	1	1	"1Chisholm"	1	0	0	7	NA	NA
+1159	0	3	"Warren, Mr. Charles William"	1	28.8628808864266	0	0	"C.A. 49867"	7.55	NA	1	"test"	1	1	"1Warren"	1	0	0	1	NA	NA
+1160	0	3	"Howard, Miss. May Elizabeth"	2	22.3115942028986	0	0	"A. 2. 39186"	8.05	NA	1	"test"	3	1	"1Howard"	1	0	0	1	NA	NA
+1161	0	3	"Pokrnic, Mr. Mate"	1	17.0	0	0	"315095"	8.6625	NA	1	"test"	1	1	"1Pokrnic"	1	0	0	1	NA	NA
+1162	0	1	"McCaffry, Mr. Thomas Francis"	1	46.0	0	0	"13050"	75.2417	"C6"	2	"test"	1	1	"1McCaffry"	1	0	0	2	"6"	"End"
+1163	0	3	"Fox, Mr. Patrick"	1	28.8628808864266	0	0	"368573"	7.75	NA	3	"test"	1	1	"1Fox"	1	0	0	1	NA	NA
+1164	1	1	"Clark, Mrs. Walter Miller (Virginia McDowell)"	2	26.0	1	0	"13508"	136.7792	"C89"	2	"test"	2	2	"2Clark"	1	0	0	2	"89"	"Front"
+1165	1	3	"Lennon, Miss. Mary"	2	22.3115942028986	1	0	"370371"	15.5	NA	3	"test"	3	2	"2Lennon"	1	0	0	1	NA	NA
+1166	0	3	"Saade, Mr. Jean Nassr"	1	28.8628808864266	0	0	"2676"	7.225	NA	2	"test"	1	1	"1Saade"	1	0	0	1	NA	NA
+1167	1	2	"Bryhl, Miss. Dagmar Jenny Ingeborg "	2	20.0	1	0	"236853"	26.0	NA	1	"test"	3	2	"2Bryhl"	1	0	0	1	NA	NA
+1168	0	2	"Parker, Mr. Clifford Richard"	1	28.0	0	0	"SC 14888"	10.5	NA	1	"test"	1	1	"1Parker"	1	0	0	1	NA	NA
+1169	0	2	"Faunthorpe, Mr. Harry"	1	40.0	1	0	"2926"	26.0	NA	1	"test"	1	2	"2Faunthorpe"	1	0	0	1	NA	NA
+1170	0	2	"Ware, Mr. John James"	1	30.0	1	0	"CA 31352"	21.0	NA	1	"test"	1	2	"2Ware"	1	0	0	1	NA	NA
+1171	0	2	"Oxenham, Mr. Percy Thomas"	1	22.0	0	0	"W./C. 14260"	10.5	NA	1	"test"	1	1	"1Oxenham"	1	0	0	1	NA	NA
+1172	0	3	"Oreskovic, Miss. Jelka"	2	23.0	0	0	"315085"	8.6625	NA	1	"test"	3	1	"1Oreskovic"	55	0	0	1	NA	NA
+1173	0	3	"Peacock, Master. Alfred Edward"	1	0.75	1	1	"SOTON/O.Q. 3101315"	13.775	NA	1	"test"	4	3	"3Peacock"	78	0	1	1	NA	NA
+1174	1	3	"Fleming, Miss. Honora"	2	22.3115942028986	0	0	"364859"	7.75	NA	3	"test"	3	1	"1Fleming"	1	0	0	1	NA	NA
+1175	1	3	"Touma, Miss. Maria Youssef"	2	9.0	1	1	"2650"	15.2458	NA	2	"test"	3	3	"3Touma"	36	0	1	1	NA	NA
+1176	0	3	"Rosblom, Miss. Salli Helena"	2	2.0	1	1	"370129"	20.2125	NA	1	"test"	3	3	"3Rosblom"	35	0	1	1	NA	NA
+1177	0	3	"Dennis, Mr. William"	1	36.0	0	0	"A/5 21175"	7.25	NA	1	"test"	1	1	"1Dennis"	1	0	0	1	NA	NA
+1178	0	3	"Franklin, Mr. Charles (Charles Fardon)"	1	28.8628808864266	0	0	"SOTON/O.Q. 3101314"	7.25	NA	1	"test"	1	1	"1Franklin"	1	0	0	1	NA	NA
+1179	0	1	"Snyder, Mr. John Pillsbury"	1	24.0	1	0	"21228"	82.2667	"B45"	1	"test"	1	2	"2Snyder"	1	0	0	7	"45"	"Middle"
+1180	0	3	"Mardirosian, Mr. Sarkis"	1	28.8628808864266	0	0	"2655"	7.2292	"F E46"	2	"test"	1	1	"1Mardirosian"	1	0	0	1	" "	NA
+1181	0	3	"Ford, Mr. Arthur"	1	28.8628808864266	0	0	"A/5 1478"	8.05	NA	1	"test"	1	1	"1Ford"	1	0	0	1	NA	NA
+1182	0	1	"Rheims, Mr. George Alexander Lucien"	1	42.5092165898618	0	0	"PC 17607"	39.6	NA	1	"test"	1	1	"1Rheims"	1	0	0	2	NA	NA
+1183	1	3	"Daly, Miss. Margaret Marcella Maggie\"\""	2	30.0	0	0	"382650"	6.95	NA	3	"test"	3	1	"1Daly"	66	0	0	1	NA	NA
+1184	0	3	"Nasr, Mr. Mustafa"	1	28.8628808864266	0	0	"2652"	7.2292	NA	2	"test"	1	1	"1Nasr"	1	0	0	1	NA	NA
+1185	0	1	"Dodge, Dr. Washington"	1	53.0	1	1	"33638"	81.8583	"A34"	1	"test"	7	3	"3Dodge"	60	0	0	6	"34"	"Middle"
+1186	0	3	"Wittevrongel, Mr. Camille"	1	36.0	0	0	"345771"	9.5	NA	1	"test"	1	1	"1Wittevrongel"	1	0	0	1	NA	NA
+1187	0	3	"Angheloff, Mr. Minko"	1	26.0	0	0	"349202"	7.8958	NA	1	"test"	1	1	"1Angheloff"	1	0	0	1	NA	NA
+1188	1	2	"Laroche, Miss. Louise"	2	1.0	1	2	"SC/Paris 2123"	41.5792	NA	2	"test"	3	4	"4Laroche"	10	0	1	1	NA	NA
+1189	0	3	"Samaan, Mr. Hanna"	1	28.8628808864266	2	0	"2662"	21.6792	NA	2	"test"	1	3	"3Samaan"	11	0	0	1	NA	NA
+1190	0	1	"Loring, Mr. Joseph Holland"	1	30.0	0	0	"113801"	45.5	NA	1	"test"	1	1	"1Loring"	1	0	0	2	NA	NA
+1191	0	3	"Johansson, Mr. Nils"	1	29.0	0	0	"347467"	7.8542	NA	1	"test"	1	1	"1Johansson"	21	0	0	1	NA	NA
+1192	0	3	"Olsson, Mr. Oscar Wilhelm"	1	32.0	0	0	"347079"	7.775	NA	1	"test"	1	1	"1Olsson"	39	0	0	1	NA	NA
+1193	0	2	"Malachard, Mr. Noel"	1	33.0519801980198	0	0	"237735"	15.0458	"D"	2	"test"	1	1	"1Malachard"	1	0	0	5	NA	NA
+1194	0	2	"Phillips, Mr. Escott Robert"	1	43.0	0	1	"S.O./P.P. 2"	21.0	NA	1	"test"	1	2	"2Phillips"	1	0	0	1	NA	NA
+1195	0	3	"Pokrnic, Mr. Tome"	1	24.0	0	0	"315092"	8.6625	NA	1	"test"	1	1	"1Pokrnic"	1	0	0	1	NA	NA
+1196	1	3	"McCarthy, Miss. Catherine Katie\"\""	2	22.3115942028986	0	0	"383123"	7.75	NA	3	"test"	3	1	"1McCarthy"	1	0	0	1	NA	NA
+1197	1	1	"Crosby, Mrs. Edward Gifford (Catherine Elizabeth Halstead)"	2	64.0	1	1	"112901"	26.55	"B26"	1	"test"	2	3	"3Crosby"	67	1	0	7	"26"	"End"
+1198	0	1	"Allison, Mr. Hudson Joshua Creighton"	1	30.0	1	2	"113781"	151.55	"C22 C26"	1	"test"	1	4	"4Allison"	40	0	0	2	"22 "	"End"
+1199	0	3	"Aks, Master. Philip Frank"	1	0.83	0	1	"392091"	9.35	NA	1	"test"	4	2	"2Aks"	1	0	1	1	NA	NA
+1200	0	1	"Hays, Mr. Charles Melville"	1	55.0	1	1	"12749"	93.5	"B69"	1	"test"	1	3	"3Hays"	1	0	0	7	"69"	"Middle"
+1201	1	3	"Hansen, Mrs. Claus Peter (Jennie L Howard)"	2	45.0	1	0	"350026"	14.1083	NA	1	"test"	2	2	"2Hansen"	1	0	0	1	NA	NA
+1202	0	3	"Cacic, Mr. Jego Grga"	1	18.0	0	0	"315091"	8.6625	NA	1	"test"	1	1	"1Cacic"	62	0	0	1	NA	NA
+1203	0	3	"Vartanian, Mr. David"	1	22.0	0	0	"2658"	7.225	NA	2	"test"	1	1	"1Vartanian"	1	0	0	1	NA	NA
+1204	0	3	"Sadowitz, Mr. Harry"	1	28.8628808864266	0	0	"LP 1588"	7.575	NA	1	"test"	1	1	"1Sadowitz"	1	0	0	1	NA	NA
+1205	1	3	"Carr, Miss. Jeannie"	2	37.0	0	0	"368364"	7.75	NA	3	"test"	3	1	"1Carr"	1	0	0	1	NA	NA
+1206	1	1	"White, Mrs. John Stuart (Ella Holmes)"	2	55.0	0	0	"PC 17760"	135.6333	"C32"	2	"test"	2	1	"1White"	1	0	0	2	"32"	"End"
+1207	1	3	"Hagardon, Miss. Kate"	2	17.0	0	0	"AQ/3. 30631"	7.7333	NA	3	"test"	3	1	"1Hagardon"	1	0	0	1	NA	NA
+1208	0	1	"Spencer, Mr. William Augustus"	1	57.0	1	0	"PC 17569"	146.5208	"B78"	2	"test"	1	2	"2Spencer"	1	0	0	7	"78"	"Front"
+1209	0	2	"Rogers, Mr. Reginald Harry"	1	19.0	0	0	"28004"	10.5	NA	1	"test"	1	1	"1Rogers"	1	0	0	1	NA	NA
+1210	0	3	"Jonsson, Mr. Nils Hilding"	1	27.0	0	0	"350408"	7.8542	NA	1	"test"	1	1	"1Jonsson"	1	0	0	1	NA	NA
+1211	0	2	"Jefferys, Mr. Ernest Wilfred"	1	22.0	2	0	"C.A. 31029"	31.5	NA	1	"test"	1	3	"3Jefferys"	1	0	0	1	NA	NA
+1212	0	3	"Andersson, Mr. Johan Samuel"	1	26.0	0	0	"347075"	7.775	NA	1	"test"	1	1	"1Andersson"	1	0	0	1	NA	NA
+1213	0	3	"Krekorian, Mr. Neshan"	1	25.0	0	0	"2654"	7.2292	"F E57"	2	"test"	1	1	"1Krekorian"	1	0	0	1	" "	NA
+1214	0	2	"Nesson, Mr. Israel"	1	26.0	0	0	"244368"	13.0	"F2"	1	"test"	1	1	"1Nesson"	1	0	0	1	"2"	"End"
+1215	0	1	"Rowe, Mr. Alfred G"	1	33.0	0	0	"113790"	26.55	NA	1	"test"	1	1	"1Rowe"	1	0	0	3	NA	NA
+1216	1	1	"Kreuchen, Miss. Emilie"	2	39.0	0	0	"24160"	211.3375	NA	1	"test"	3	1	"1Kreuchen"	1	0	0	2	NA	NA
+1217	0	3	"Assam, Mr. Ali"	1	23.0	0	0	"SOTON/O.Q. 3101309"	7.05	NA	1	"test"	1	1	"1Assam"	1	0	0	1	NA	NA
+1218	1	2	"Becker, Miss. Ruth Elizabeth"	2	12.0	2	1	"230136"	39.0	"F4"	1	"test"	3	4	"4Becker"	32	0	1	1	"4"	"End"
+1219	0	1	"Rosenshine, Mr. George (Mr George Thorne\")\""	1	46.0	0	0	"PC 17585"	79.2	NA	2	"test"	1	1	"1Rosenshine"	1	0	0	7	NA	NA
+1220	0	2	"Clarke, Mr. Charles Valentine"	1	29.0	1	0	"2003"	26.0	NA	1	"test"	1	2	"2Clarke"	1	0	0	1	NA	NA
+1221	0	2	"Enander, Mr. Ingvar"	1	21.0	0	0	"236854"	13.0	NA	1	"test"	1	1	"1Enander"	1	0	0	1	NA	NA
+1222	1	2	"Davies, Mrs. John Morgan (Elizabeth Agnes Mary White) "	2	48.0	0	2	"C.A. 33112"	36.75	NA	1	"test"	2	3	"3Davies"	68	1	0	1	NA	NA
+1223	0	1	"Dulles, Mr. William Crothers"	1	39.0	0	0	"PC 17580"	29.7	"A18"	2	"test"	1	1	"1Dulles"	1	0	0	6	"18"	"End"
+1224	0	3	"Thomas, Mr. Tannous"	1	28.8628808864266	0	0	"2684"	7.225	NA	2	"test"	1	1	"1Thomas"	1	0	0	1	NA	NA
+1225	1	3	"Nakid, Mrs. Said (Waika Mary\" Mowad)\""	2	19.0	1	1	"2653"	15.7417	NA	2	"test"	2	3	"3Nakid"	53	1	0	1	NA	NA
+1226	0	3	"Cor, Mr. Ivan"	1	27.0	0	0	"349229"	7.8958	NA	1	"test"	1	1	"1Cor"	71	0	0	1	NA	NA
+1227	0	1	"Maguire, Mr. John Edward"	1	30.0	0	0	"110469"	26.0	"C106"	1	"test"	1	1	"1Maguire"	1	0	0	2	"106"	"Front"
+1228	0	2	"de Brito, Mr. Jose Joaquim"	1	32.0	0	0	"244360"	13.0	NA	1	"test"	1	1	"1de Brito"	1	0	0	1	NA	NA
+1229	0	3	"Elias, Mr. Joseph"	1	39.0	0	2	"2675"	7.2292	NA	2	"test"	1	3	"3Elias"	51	0	0	1	NA	NA
+1230	0	2	"Denbury, Mr. Herbert"	1	25.0	0	0	"C.A. 31029"	31.5	NA	1	"test"	1	1	"1Denbury"	1	0	0	1	NA	NA
+1231	0	3	"Betros, Master. Seman"	1	22.3115942028986	0	0	"2622"	7.2292	NA	2	"test"	4	1	"1Betros"	1	0	0	1	NA	NA
+1232	0	2	"Fillbrook, Mr. Joseph Charles"	1	18.0	0	0	"C.A. 15185"	10.5	NA	1	"test"	1	1	"1Fillbrook"	1	0	0	1	NA	NA
+1233	0	3	"Lundstrom, Mr. Thure Edvin"	1	32.0	0	0	"350403"	7.5792	NA	1	"test"	1	1	"1Lundstrom"	1	0	0	1	NA	NA
+1234	0	3	"Sage, Mr. John George"	1	28.8628808864266	1	9	"CA. 2343"	69.55	NA	1	"test"	1	11	"11Sage"	27	0	0	1	NA	NA
+1235	1	1	"Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake)"	2	58.0	0	1	"PC 17755"	512.3292	"B51 B53 B55"	2	"test"	2	2	"2Cardeza"	1	1	0	7	"51 "	"Middle"
+1236	0	3	"van Billiard, Master. James William"	1	7.12378640776699	1	1	"A/5. 851"	14.5	NA	1	"test"	4	3	"3van Billiard"	26	0	1	1	NA	NA
+1237	1	3	"Abelseth, Miss. Karen Marie"	2	16.0	0	0	"348125"	7.65	NA	1	"test"	3	1	"1Abelseth"	1	0	0	1	NA	NA
+1238	0	2	"Botsford, Mr. William Hull"	1	26.0	0	0	"237670"	13.0	NA	1	"test"	1	1	"1Botsford"	1	0	0	1	NA	NA
+1239	1	3	"Whabee, Mrs. George Joseph (Shawneene Abi-Saab)"	2	38.0	0	0	"2688"	7.2292	NA	2	"test"	2	1	"1Whabee"	1	0	0	1	NA	NA
+1240	0	2	"Giles, Mr. Ralph"	1	24.0	0	0	"248726"	13.5	NA	1	"test"	1	1	"1Giles"	1	0	0	1	NA	NA
+1241	1	2	"Walcroft, Miss. Nellie"	2	31.0	0	0	"F.C.C. 13528"	21.0	NA	1	"test"	3	1	"1Walcroft"	1	0	0	1	NA	NA
+1242	1	1	"Greenfield, Mrs. Leo David (Blanche Strouse)"	2	45.0	0	1	"PC 17759"	63.3583	"D10 D12"	2	"test"	2	2	"2Greenfield"	1	1	0	5	"10 "	"End"
+1243	0	2	"Stokes, Mr. Philip Joseph"	1	25.0	0	0	"F.C.C. 13540"	10.5	NA	1	"test"	1	1	"1Stokes"	1	0	0	1	NA	NA
+1244	0	2	"Dibden, Mr. William"	1	18.0	0	0	"S.O.C. 14879"	73.5	NA	1	"test"	1	1	"1Dibden"	1	0	0	1	NA	NA
+1245	0	2	"Herman, Mr. Samuel"	1	49.0	1	2	"220845"	65.0	NA	1	"test"	1	4	"4Herman"	70	0	0	1	NA	NA
+1246	1	3	"Dean, Miss. Elizabeth Gladys Millvina\"\""	2	0.17	1	2	"C.A. 2315"	20.575	NA	1	"test"	3	4	"4Dean"	20	0	1	1	NA	NA
+1247	0	1	"Julian, Mr. Henry Forbes"	1	50.0	0	0	"113044"	26.0	"E60"	1	"test"	1	1	"1Julian"	1	0	0	3	"60"	"Middle"
+1248	1	1	"Brown, Mrs. John Murray (Caroline Lane Lamson)"	2	59.0	2	0	"11769"	51.4792	"C101"	1	"test"	2	3	"3Brown"	72	0	0	2	"101"	"Front"
+1249	0	3	"Lockyer, Mr. Edward"	1	28.8628808864266	0	0	"1222"	7.8792	NA	1	"test"	1	1	"1Lockyer"	1	0	0	1	NA	NA
+1250	0	3	"O\'Keefe, Mr. Patrick"	1	28.8628808864266	0	0	"368402"	7.75	NA	3	"test"	1	1	"1O\'Keefe"	1	0	0	1	NA	NA
+1251	1	3	"Lindell, Mrs. Edvard Bengtsson (Elin Gerda Persson)"	2	30.0	1	0	"349910"	15.55	NA	1	"test"	2	2	"2Lindell"	1	0	0	1	NA	NA
+1252	0	3	"Sage, Master. William Henry"	1	14.5	8	2	"CA. 2343"	69.55	NA	1	"test"	4	11	"11Sage"	27	0	1	1	NA	NA
+1253	1	2	"Mallet, Mrs. Albert (Antoinette Magnin)"	2	24.0	1	1	"S.C./PARIS 2079"	37.0042	NA	2	"test"	2	3	"3Mallet"	76	1	0	1	NA	NA
+1254	1	2	"Ware, Mrs. John James (Florence Louise Long)"	2	31.0	0	0	"CA 31352"	21.0	NA	1	"test"	2	1	"1Ware"	1	0	0	1	NA	NA
+1255	0	3	"Strilic, Mr. Ivan"	1	27.0	0	0	"315083"	8.6625	NA	1	"test"	1	1	"1Strilic"	1	0	0	1	NA	NA
+1256	1	1	"Harder, Mrs. George Achilles (Dorothy Annan)"	2	25.0	1	0	"11765"	55.4417	"E50"	2	"test"	2	2	"2Harder"	1	0	0	3	"50"	"Middle"
+1257	0	3	"Sage, Mrs. John (Annie Bullen)"	2	28.8628808864266	1	9	"CA. 2343"	69.55	NA	1	"test"	2	11	"11Sage"	27	1	0	1	NA	NA
+1258	0	3	"Caram, Mr. Joseph"	1	28.8628808864266	1	0	"2689"	14.4583	NA	2	"test"	1	2	"2Caram"	1	0	0	1	NA	NA
+1259	1	3	"Riihivouri, Miss. Susanna Juhantytar Sanni\"\""	2	22.0	0	0	"3101295"	39.6875	NA	1	"test"	3	1	"1Riihivouri"	1	0	0	1	NA	NA
+1260	1	1	"Gibson, Mrs. Leonard (Pauline C Boeson)"	2	45.0	0	1	"112378"	59.4	NA	2	"test"	2	2	"2Gibson"	1	1	0	7	NA	NA
+1261	0	2	"Pallas y Castello, Mr. Emilio"	1	29.0	0	0	"SC/PARIS 2147"	13.8583	NA	2	"test"	1	1	"1Pallas y Castello"	1	0	0	1	NA	NA
+1262	0	2	"Giles, Mr. Edgar"	1	21.0	1	0	"28133"	11.5	NA	1	"test"	1	2	"2Giles"	1	0	0	1	NA	NA
+1263	1	1	"Wilson, Miss. Helen Alice"	2	31.0	0	0	"16966"	134.5	"E39 E41"	2	"test"	3	1	"1Wilson"	1	0	0	3	"39 "	"Middle"
+1264	0	1	"Ismay, Mr. Joseph Bruce"	1	49.0	0	0	"112058"	0.0	"B52 B54 B56"	1	"test"	1	1	"1Ismay"	1	0	0	7	"52 "	"Middle"
+1265	0	2	"Harbeck, Mr. William H"	1	44.0	0	0	"248746"	13.0	NA	1	"test"	1	1	"1Harbeck"	1	0	0	1	NA	NA
+1266	1	1	"Dodge, Mrs. Washington (Ruth Vidaver)"	2	54.0	1	1	"33638"	81.8583	"A34"	1	"test"	2	3	"3Dodge"	60	1	0	6	"34"	"Middle"
+1267	1	1	"Bowen, Miss. Grace Scott"	2	45.0	0	0	"PC 17608"	262.375	NA	2	"test"	3	1	"1Bowen"	1	0	0	7	NA	NA
+1268	0	3	"Kink, Miss. Maria"	2	22.0	2	0	"315152"	8.6625	NA	1	"test"	3	3	"3Kink"	1	0	0	1	NA	NA
+1269	0	2	"Cotterill, Mr. Henry Harry\"\""	1	21.0	0	0	"29107"	11.5	NA	1	"test"	1	1	"1Cotterill"	1	0	0	1	NA	NA
+1270	0	1	"Hipkins, Mr. William Edward"	1	55.0	0	0	"680"	50.0	"C39"	1	"test"	1	1	"1Hipkins"	1	0	0	2	"39"	"Middle"
+1271	0	3	"Asplund, Master. Carl Edgar"	1	5.0	4	2	"347077"	31.3875	NA	1	"test"	4	7	"7Asplund"	8	0	1	1	NA	NA
+1272	0	3	"O\'Connor, Mr. Patrick"	1	28.8628808864266	0	0	"366713"	7.75	NA	3	"test"	1	1	"1O\'Connor"	1	0	0	1	NA	NA
+1273	0	3	"Foley, Mr. Joseph"	1	26.0	0	0	"330910"	7.8792	NA	3	"test"	1	1	"1Foley"	1	0	0	1	NA	NA
+1274	1	3	"Risien, Mrs. Samuel (Emma)"	2	28.8628808864266	0	0	"364498"	14.5	NA	1	"test"	2	1	"1Risien"	1	0	0	1	NA	NA
+1275	1	3	"McNamee, Mrs. Neal (Eileen O\'Leary)"	2	19.0	1	0	"376566"	16.1	NA	1	"test"	2	2	"2McNamee"	1	0	0	1	NA	NA
+1276	0	2	"Wheeler, Mr. Edwin Frederick\"\""	1	33.0519801980198	0	0	"SC/PARIS 2159"	12.875	NA	1	"test"	1	1	"1Wheeler"	1	0	0	1	NA	NA
+1277	1	2	"Herman, Miss. Kate"	2	24.0	1	2	"220845"	65.0	NA	1	"test"	3	4	"4Herman"	70	0	0	1	NA	NA
+1278	0	3	"Aronsson, Mr. Ernst Axel Algot"	1	24.0	0	0	"349911"	7.775	NA	1	"test"	1	1	"1Aronsson"	1	0	0	1	NA	NA
+1279	0	2	"Ashby, Mr. John"	1	57.0	0	0	"244346"	13.0	NA	1	"test"	1	1	"1Ashby"	1	0	0	1	NA	NA
+1280	0	3	"Canavan, Mr. Patrick"	1	21.0	0	0	"364858"	7.75	NA	3	"test"	1	1	"1Canavan"	1	0	0	1	NA	NA
+1281	0	3	"Palsson, Master. Paul Folke"	1	6.0	3	1	"349909"	21.075	NA	1	"test"	4	5	"5Palsson"	2	0	1	1	NA	NA
+1282	0	1	"Payne, Mr. Vivian Ponsonby"	1	23.0	0	0	"12749"	93.5	"B24"	1	"test"	1	1	"1Payne"	1	0	0	7	"24"	"End"
+1283	1	1	"Lines, Mrs. Ernest H (Elizabeth Lindsey James)"	2	51.0	0	1	"PC 17592"	39.4	"D28"	1	"test"	2	2	"2Lines"	1	1	0	5	"28"	"End"
+1284	0	3	"Abbott, Master. Eugene Joseph"	1	13.0	0	2	"C.A. 2673"	20.25	NA	1	"test"	4	3	"3Abbott"	38	0	1	1	NA	NA
+1285	0	2	"Gilbert, Mr. William"	1	47.0	0	0	"C.A. 30769"	10.5	NA	1	"test"	1	1	"1Gilbert"	1	0	0	1	NA	NA
+1286	0	3	"Kink-Heilmann, Mr. Anton"	1	29.0	3	1	"315153"	22.025	NA	1	"test"	1	5	"5Kink-Heilmann"	1	0	0	1	NA	NA
+1287	1	1	"Smith, Mrs. Lucien Philip (Mary Eloise Hughes)"	2	18.0	1	0	"13695"	60.0	"C31"	1	"test"	2	2	"2Smith"	1	0	0	2	"31"	"End"
+1288	0	3	"Colbert, Mr. Patrick"	1	24.0	0	0	"371109"	7.25	NA	3	"test"	1	1	"1Colbert"	1	0	0	1	NA	NA
+1289	1	1	"Frolicher-Stehli, Mrs. Maxmillian (Margaretha Emerentia Stehli)"	2	48.0	1	1	"13567"	79.2	"B41"	2	"test"	2	3	"3Frolicher-Stehli"	1	1	0	7	"41"	"Middle"
+1290	0	3	"Larsson-Rondberg, Mr. Edvard A"	1	22.0	0	0	"347065"	7.775	NA	1	"test"	1	1	"1Larsson-Rondberg"	1	0	0	1	NA	NA
+1291	0	3	"Conlon, Mr. Thomas Henry"	1	31.0	0	0	"21332"	7.7333	NA	3	"test"	1	1	"1Conlon"	1	0	0	1	NA	NA
+1292	1	1	"Bonnell, Miss. Caroline"	2	30.0	0	0	"36928"	164.8667	"C7"	1	"test"	3	1	"1Bonnell"	1	0	0	2	"7"	"End"
+1293	0	2	"Gale, Mr. Harry"	1	38.0	1	0	"28664"	21.0	NA	1	"test"	1	2	"2Gale"	1	0	0	1	NA	NA
+1294	1	1	"Gibson, Miss. Dorothy Winifred"	2	22.0	0	1	"112378"	59.4	NA	2	"test"	3	2	"2Gibson"	1	0	0	7	NA	NA
+1295	0	1	"Carrau, Mr. Jose Pedro"	1	17.0	0	0	"113059"	47.1	NA	1	"test"	1	1	"1Carrau"	1	0	0	2	NA	NA
+1296	0	1	"Frauenthal, Mr. Isaac Gerald"	1	43.0	1	0	"17765"	27.7208	"D40"	2	"test"	1	2	"2Frauenthal"	1	0	0	5	"40"	"Middle"
+1297	0	2	"Nourney, Mr. Alfred (Baron von Drachstedt\")\""	1	20.0	0	0	"SC/PARIS 2166"	13.8625	"D38"	2	"test"	1	1	"1Nourney"	1	0	0	5	"38"	"Middle"
+1298	0	2	"Ware, Mr. William Jeffery"	1	23.0	1	0	"28666"	10.5	NA	1	"test"	1	2	"2Ware"	1	0	0	1	NA	NA
+1299	0	1	"Widener, Mr. George Dunton"	1	50.0	1	1	"113503"	211.5	"C80"	2	"test"	1	3	"3Widener"	52	0	0	2	"80"	"Front"
+1300	1	3	"Riordan, Miss. Johanna Hannah\"\""	2	22.3115942028986	0	0	"334915"	7.7208	NA	3	"test"	3	1	"1Riordan"	1	0	0	1	NA	NA
+1301	1	3	"Peacock, Miss. Treasteall"	2	3.0	1	1	"SOTON/O.Q. 3101315"	13.775	NA	1	"test"	3	3	"3Peacock"	78	0	1	1	NA	NA
+1302	1	3	"Naughton, Miss. Hannah"	2	22.3115942028986	0	0	"365237"	7.75	NA	3	"test"	3	1	"1Naughton"	1	0	0	1	NA	NA
+1303	1	1	"Minahan, Mrs. William Edward (Lillian E Thorpe)"	2	37.0	1	0	"19928"	90.0	"C78"	3	"test"	2	2	"2Minahan"	1	0	0	2	"78"	"Front"
+1304	1	3	"Henriksson, Miss. Jenny Lovisa"	2	28.0	0	0	"347086"	7.775	NA	1	"test"	3	1	"1Henriksson"	1	0	0	1	NA	NA
+1305	0	3	"Spector, Mr. Woolf"	1	28.8628808864266	0	0	"A.5. 3236"	8.05	NA	1	"test"	1	1	"1Spector"	1	0	0	1	NA	NA
+1306	1	1	"Oliva y Ocana, Dona. Fermina"	2	39.0	0	0	"PC 17758"	108.9	"C105"	2	"test"	10	1	"1Oliva y Ocana"	1	0	0	2	"105"	"Front"
+1307	0	3	"Saether, Mr. Simon Sivertsen"	1	38.5	0	0	"SOTON/O.Q. 3101262"	7.25	NA	1	"test"	1	1	"1Saether"	1	0	0	1	NA	NA
+1308	0	3	"Ware, Mr. Frederick"	1	28.8628808864266	0	0	"359309"	8.05	NA	1	"test"	1	1	"1Ware"	1	0	0	1	NA	NA
+1309	1	3	"Peter, Master. Michael J"	1	7.12378640776699	1	1	"2668"	22.3583	NA	2	"test"	4	3	"3Peter"	23	0	1	1	NA	NA
