@@ -59,21 +59,22 @@ model = XGBoost.xgboost(dtrain, num_rounds, param=params,
                         num_class=num_class, watchlist=watchlist)
 toc()
 
-# println("\nPrepare to Tunning Model")
-# tic()
-# ptrain = XGBoost.predict(model, dtrain, output_margin=true)
-# pval  = XGBoost.predict(model, dval, output_margin=true)
+println("\nPrepare to Tunning Model")
+tic()
+ptrain = XGBoost.predict(model, dtrain, output_margin=true)
+pval  = XGBoost.predict(model, dval, output_margin=true)
 
-# num_rounds = 20
-# set_info(dtrain, "base_margin", ptrain)
-# set_info(dval, "base_margin", pval)
-# watchlist  = [(dtrain, "train2"), (dval, "eval2")]
-# toc()
+num_rounds = 1000
+set_info(dtrain, "base_margin", ptrain)
+set_info(dval, "base_margin", pval)
+watchlist  = [(dtrain, "train2"), (dval, "eval2")]
+toc()
 
-# println("\nTunning Model")
-# tic()
-# model = XGBoost.xgboost(dtrain, num_rounds, param=params, watchlist=watchlist)
-# toc()
+println("\nTunning Model")
+tic()
+model = XGBoost.xgboost(dtrain, num_rounds, param=params, 
+                        num_class=num_class, watchlist=watchlist)
+toc()
 
 
 println("\nStart Prediction")
