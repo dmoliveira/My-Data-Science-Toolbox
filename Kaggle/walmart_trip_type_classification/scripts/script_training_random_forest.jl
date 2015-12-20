@@ -14,8 +14,8 @@ function split_train_val(df; train_size=.85, random_state=1)
 end
 
 # Load Data
-train = readtable("../data/train_shallow_featured.tsv", separator='\t')
-test = readtable("../data/test_shallow_featured.tsv", separator='\t')
+train = readtable("../data/train_featured.tsv", separator='\t')
+test = readtable("../data/test_featured.tsv", separator='\t')
 
 train = train[:, :]
 test = test[:, :]
@@ -31,8 +31,8 @@ val_y = convert(Array{Float64,1}, X_val[label])
 test_x = Array{Float64,2}(test[:, features])
 
 # Random Forest Parameters
-number_random_features = 5
-tree_number = 100
+number_random_features = 50
+tree_number = 1000
 subsample = .5
 
 println("""
@@ -58,9 +58,9 @@ toc()
 
 println("\nSave Predictions")
 tic()
-writetable("../data/pred_train_rf.csv", DataFrame(pred=pred_train))
-writetable("../data/pred_val_rf.csv", DataFrame(pred=pred_val))
-writetable("../data/pred_test_rf.csv", DataFrame(pred=pred_test))
+writetable("../data/pred_train_featured_department_relationship_rf.csv", DataFrame(pred=pred_train))
+writetable("../data/pred_val_featured_department_relationship_rf.csv", DataFrame(pred=pred_val))
+writetable("../data/pred_test_featured_department_relationship_rf.csv", DataFrame(pred=pred_test))
 toc()
 
 println("\nFinished Execution")
