@@ -14,8 +14,8 @@ function split_train_val(df; train_size=.85, random_state=1)
 end
 
 # Load Data
-train = readtable("../data/train_featured.tsv", separator='\t')
-test = readtable("../data/test_featured.tsv", separator='\t')
+train = readtable("../data/train_featured_all_relationship.tsv", separator='\t')
+test = readtable("../data/test_featured_all_relationship.tsv", separator='\t')
 
 train = train[:, :]
 test = test[:, :]
@@ -58,9 +58,9 @@ toc()
 
 println("\nSave Predictions")
 tic()
-writetable("../data/pred_train_featured_department_relationship_rf.csv", DataFrame(pred=pred_train))
-writetable("../data/pred_val_featured_department_relationship_rf.csv", DataFrame(pred=pred_val))
-writetable("../data/pred_test_featured_department_relationship_rf.csv", DataFrame(pred=pred_test))
+writetable("../data/pred_train_featured_all_relationship_rf.csv", DataFrame(pred=pred_train))
+writetable("../data/pred_val_featured_all_relationship_rf.csv", DataFrame(pred=pred_val))
+writetable("../data/pred_test_featured_all_relationship_rf.csv", DataFrame(pred=pred_test))
 toc()
 
 println("\nFinished Execution")
